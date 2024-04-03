@@ -151,13 +151,9 @@ const editor = grapesjs.init({
         sectors: [{
             name: 'Dimension',
             open: false,
-            // Use built-in properties
             buildProps: ['width', 'min-height', 'padding'],
-            // Use `properties` to define/override single property
             properties: [
                 {
-                    // Type of the input,
-                    // options: integer | radio | select | color | slider | file | composite | stack
                     type: 'integer',
                     name: 'The width', // Label for the property
                     property: 'width', // CSS property (if buildProps contains it will be extended)
