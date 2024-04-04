@@ -155,8 +155,8 @@ const editor = grapesjs.init({
             properties: [
                 {
                     type: 'integer',
-                    name: 'The width', // Label for the property
-                    property: 'width', // CSS property (if buildProps contains it will be extended)
+                    name: 'The width', 
+                    property: 'width', 
                     units: ['px', '%'], // Units, available only for 'integer' types
                     defaults: 'auto', // Default value
                     min: 0, // Min value, available only for 'integer' types
