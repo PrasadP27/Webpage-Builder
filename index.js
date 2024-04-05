@@ -4,7 +4,7 @@ const app = express();
 const PORT = 5050;
 
 //for static file
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "public")))
 
 //for handlebars
 const exphbs = require('express-handlebars');

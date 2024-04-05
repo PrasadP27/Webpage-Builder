@@ -14,7 +14,8 @@ router.get("/builder", (req, res) => {
         title: ' | Builder',
         // for grapesjs
         'grapesJS-script': '//unpkg.com/grapesjs',
-        'grapesJS-style': '//unpkg.com/grapesjs/dist/css/grapes.min.css'
+        'grapesJS-style': '//unpkg.com/grapesjs/dist/css/grapes.min.css',
+        script: 'js/grapesJS.js'
     })
 })
 
