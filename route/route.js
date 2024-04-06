@@ -7,11 +7,11 @@ router.get("/", (req, res) => {
 
 router.get("/builder", (req, res) => {
     res.render("builder", {
-        title: ' | Builder',
-        // for grapesjs
-        'grapesJS-script': '//unpkg.com/grapesjs',
-        'grapesJS-style': '//unpkg.com/grapesjs/dist/css/grapes.min.css',
-        script: '/builder/grapesJS.js'
+        // title: ' | Builder',
+        // // for grapesjs
+        // 'grapesJS-script': '//unpkg.com/grapesjs',
+        // 'grapesJS-style': '//unpkg.com/grapesjs/dist/css/grapes.min.css',
+        // script: '/builder/grapesJS.js'
     })
 })
 

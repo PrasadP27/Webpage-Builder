@@ -6,6 +6,10 @@ const PORT = 5050;
 //for static file
 app.use(express.static(path.join(__dirname, "public")))
 
+// for templating engine ejs 
+app.set("layout", __dirname + "/../views/layouts/layout.ejs");
+app.set('view engine', 'ejs');
+
 //for router
 app.use('/', require(path.join(__dirname, "route/route.js")))
 
