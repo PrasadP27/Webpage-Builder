@@ -6,13 +6,6 @@ const PORT = 5050;
 //for static file
 app.use(express.static(path.join(__dirname, "public")))
 
-//for handlebars
-const exphbs = require('express-handlebars');
-app.engine('handlebars', exphbs.engine({
-  defaultLayout: 'main'
-}));
-app.set('view engine', 'handlebars');
-
 //for router
 app.use('/', require(path.join(__dirname, "route/route.js")))
 
