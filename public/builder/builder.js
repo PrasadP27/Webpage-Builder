@@ -1,6 +1,6 @@
 const editor = grapesjs.init({
-    container: '#canva',
+    container: '#editor',
     fromElement: true,
     storageManager: false,
-    panels: { defaults: [] },
+    panels: { defaults: {} },
   });
