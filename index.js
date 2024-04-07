@@ -1,5 +1,6 @@
 const express = require("express");
 const path = require("path");
+const expressLayouts = require("express-ejs-layouts")
 const app = express();
 const PORT = 5050;
 
@@ -7,7 +8,8 @@ const PORT = 5050;
 app.use(express.static(path.join(__dirname, "public")))
 
 // for templating engine ejs 
-app.set("layout", __dirname + "/../views/layouts/layout.ejs");
+app.use(expressLayouts)
+app.set("layout", "layout/layout.ejs");
 app.set('view engine', 'ejs');
 
 //for router

@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /*
 ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
-*//*
+*/
+
+/*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
@@ -317,6 +321,7 @@ menu {
 /*
 Reset default styling for dialogs.
 */
+
 dialog {
   padding: 0;
 }
@@ -357,6 +362,7 @@ button,
 /*
 Make sure disabled buttons don't get the pointer cursor.
 */
+
 :disabled {
   cursor: default;
 }
@@ -390,11 +396,12 @@ video {
 }
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
+
 [hidden] {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -448,7 +455,7 @@ video {
   --tw-contain-style:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -501,17 +508,17 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 } 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+.text-center{
+  text-align: center;
 } 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.font-poppins{
+  font-family: Poppins, sans-serif;
 } 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+.font-nunito{
+  font-family: Nunito Sans, sans-serif;
+} 
+.font-opensans{
+  font-family: OpenSans, sans-serif;
 }
 
 * {
@@ -530,6 +537,10 @@ video {
     --second-color: #3D3B40;
     --third-color: #525CEB;
     --fourth-color: #BFDBFE;
+
+    --font-one: "Poppins", sans-serif;
+    --font-two: "Open Sans", sans-serif;
+    --font-three: "Nunito Sans", sans-serif;
 }
 
 html,

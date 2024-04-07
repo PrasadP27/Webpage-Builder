@@ -1,13 +1,15 @@
 const express = require('express')
 const router = express.Router()
 
-router.get("/", (req, res) => {
-    res.render("home")
-})
+// router.get("/", (req, res) => {
+//     res.render("home", {
+//         title: null
+//     })
+// })
 
-router.get("/builder", (req, res) => {
+router.get("/", (req, res) => {
     res.render("builder", {
-        // title: ' | Builder',
+        title: ' | Builder',
         // // for grapesjs
         // 'grapesJS-script': '//unpkg.com/grapesjs',
         // 'grapesJS-style': '//unpkg.com/grapesjs/dist/css/grapes.min.css',
