@@ -33,7 +33,3 @@ body {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
-
-#canva {
-    border: 3px solid var(--third-color);
-}
