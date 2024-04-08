@@ -544,14 +544,6 @@ video {
 .relative{
   position: relative;
 } 
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-} 
-.my-2{
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-} 
 .my-3{
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -562,14 +554,26 @@ video {
 .mt-2{
   margin-top: 0.5rem;
 } 
+.ml-4{
+  margin-left: 1rem;
+} 
+.mr-4{
+  margin-right: 1rem;
+} 
+.ml-5{
+  margin-left: 1.25rem;
+} 
+.mr-5{
+  margin-right: 1.25rem;
+} 
 .block{
   display: block;
 } 
+.flex{
+  display: flex;
+} 
 .hidden{
   display: none;
-} 
-.h-10{
-  height: 2.5rem;
 } 
 .h-12{
   height: 3rem;
@@ -589,6 +593,33 @@ video {
 .w-full{
   width: 100%;
 } 
+@keyframes bounce{
+
+  0%, 100%{
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50%{
+    transform: none;
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+} 
+.animate-bounce{
+  animation: bounce 1s infinite;
+} 
+.flex-col{
+  flex-direction: column;
+} 
+.items-center{
+  align-items: center;
+} 
+.justify-between{
+  justify-content: space-between;
+} 
+.justify-around{
+  justify-content: space-around;
+} 
 .border{
   border-width: 1px;
 } 
@@ -603,15 +634,8 @@ video {
 .p-1{
   padding: 0.25rem;
 } 
-.p-2{
-  padding: 0.5rem;
-} 
 .p-3{
   padding: 0.75rem;
-} 
-.py-3{
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 } 
 .py-4{
   padding-top: 1rem;
@@ -623,24 +647,12 @@ video {
 .font-nunito{
   font-family: Nunito Sans, sans-serif;
 } 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-} 
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
 } 
 .font-medium{
   font-weight: 500;
-} 
-.drop-shadow-md{
-  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-} 
-.drop-shadow-2xl{
-  --tw-drop-shadow: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 } 
 .drop-shadow-xl{
   --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
