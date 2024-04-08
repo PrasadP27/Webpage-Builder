@@ -16,6 +16,10 @@
     /* overflow: hidden; */
     display: flex;
 }
+#left-navbar button:hover img{
+    scale: 1.1;
+    transition: 0.6s all;
+}
 
 #element-navbar ul li button.active{
     background-color: var(--primary-color);
@@ -45,7 +49,13 @@
     border: 2px solid var(--second-color);
     border-radius: 10px;
 }
+#top-navbar .gjs-pn-btn:hover{
+    /* background-color: var(--second-color); */
+    scale: 1.05;
+    transition: 0.6s all;
+}
 #top-navbar .gjs-pn-btn:active{
+    scale: 0.95;
     background-color: var(--second-color);
 }
 #top-navbar .gjs-one-bg{

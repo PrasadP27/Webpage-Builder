@@ -11,7 +11,7 @@
                 </button>
             </li>
             <li>
-                <button class="w-full h-14 p-3 my-3 active" data-bs-target="#block">
+                <button class="w-full h-14 p-3 my-3" data-bs-target="#block">
                     <img class="w-full h-full" src="assets/icons/blocks.svg" alt="blocks">
                 </button>
             </li>
@@ -35,11 +35,16 @@
 
     <div id="element" class="w-5/6 bg-primary">
 
-        <h1 class="font-nunito text-4xl py-4 pl-3 font-medium">Weblox</h1>
+        <h1 class="font-nunito text-4xl py-4 pl-3 font-medium underline decoration-second underline-offset-8">Weblox</h1>
 
-        <div id="element-content" class="h-full">
+        <div id="element-content" class="h-full mt-5">
 
-            <div class="tab-pane show" id="block">
+            <div class="tab-pane show p-3">
+                <h1 class="text-center text-xl font-semibold font-poppins">Welcome to Weblox</h1>
+                <p class="pt-3 p-1 font-light">&emsp;&emsp; This is the webpage builder where you can make the website just by drag and drop. :)</p>
+            </div>
+
+            <div class="tab-pane hidden" id="block">
                 <div id="blocks">
                     <h1>blocks</h1>
                 </div>
@@ -68,7 +73,7 @@
 
 <div id="main-content">
 
-    <div id="top-navbar" class="h-14 w-full relative bg-third border flex items-center justify-between">
+    <div id="top-navbar" class="h-14 w-full relative bg-third shadow-2xl flex items-center justify-between">
         <div class="panel_devices ml-5 flex"></div>
         <div class="panel_basic_actions mr-5 flex"></div>
     </div>
