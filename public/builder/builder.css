@@ -1,3 +1,10 @@
+:root{
+    --primary-color: #F9F9F9;
+    --second-color: #3D3B40;
+    --third-color: #525CEB;
+    --fourth-color: #BFDBFE;
+}
+
 #left-navbar {
     position: fixed;
     top: 0;
@@ -6,9 +13,21 @@
     width: 20%;
     /* width: auto; */
     height: 100%;
-    border: 2px solid blue;
+    border: 2px solid var(--second-color);
     /* overflow: hidden; */
     display: flex;
+}
+
+#element-navbar ul li button.active{
+    background-color: var(--primary-color);
+    border-radius: 15px 0 0 15px;
+}
+
+.show{
+    display: block;
+}
+.hidden{
+    display: none;
 }
 
 #main-content {

@@ -1,18 +1,76 @@
 <div id="left-navbar">
 
-    <div id="element-navbar" class="w-1/6 h-full bg-third"></div>
+    <div id="element-navbar" class="w-1/6 h-full bg-third drop-shadow-xl">
+        <ul>
+            <li class="w-full h-12 p-1 mt-2 mb-4">
+                <img class="w-full h-full" src="assets/icons/logo.svg" alt="logo">
+            </li>
+            <li>
+                <button class="w-full h-14 p-3 my-3">
+                    <img class="w-full h-full" src="assets/icons/plus.svg" alt="plus">
+                </button>
+            </li>
+            <li>
+                <button class="w-full h-14 p-3 my-3 active" data-bs-target="#block"
+                >
+                    <img class="w-full h-full" src="assets/icons/blocks.svg" alt="blocks">
+                </button>
+            </li>
+            <li>
+                <button class="w-full h-14 p-3 my-3" data-bs-target="#layer"
+                >
+                    <img class="w-full h-full" src="assets/icons/layers.svg" alt="layers">
+                </button>
+            </li>
+            <li>
+                <button class="w-full h-14 p-3 my-3" data-bs-target="#style"
+                >
+                    <img class="w-full h-full" src="assets/icons/palette.svg" alt="palette">
+                </button>
+            </li>
+            <li>
+                <button class="w-full h-14 p-3 my-3" data-bs-target="#trait"
+                >
+                    <img class="w-full h-full" src="assets/icons/gear.svg" alt="gear">
+                </button>
+            </li>
+        </ul>
+    </div>
 
-    <div id="element" class="w-5/6">
+    <div id="element" class="w-5/6 bg-primary">
 
-        <h1 class="font-nunito text-3xl py-3 pl-3 font-medium">Weblox</h1>
+        <h1 class="font-nunito text-4xl py-4 pl-3 font-medium">Weblox</h1>
 
-        <div id="element-content" class="h-full"></div>
+        <div id="element-content" class="h-full">
+
+            <div class="tab-pane show" id="block">
+                <div id="blocks">
+                    <h1>blocks</h1>
+                </div>
+            </div>
+            <div class="tab-pane hidden" id="layer">
+                <div id="layers-container">
+                    <h1>layers</h1>
+                </div>
+            </div>
+            <div class="tab-pane hidden" id="style">
+                <div id="styles-container">
+                    <h1>style</h1>
+                </div>
+            </div>
+            <div class="tab-pane hidden" id="trait">
+                <div id="trait-container">
+                    <h1>trait</h1>
+                </div>
+            </div>
+            
+        </div>
 
     </div>
 </div>
 
 
 <div id="main-content" class="">
-    <div id="top-navbar" class="h-14 w-full relative bg-third"></div>
+    <div id="top-navbar" class="h-14 w-full relative bg-third border"></div>
     <div id="editor" class=""></div>
 </div>
