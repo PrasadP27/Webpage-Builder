@@ -11,10 +11,12 @@
     left: 0;
     bottom: 0;
     width: 20%;
+    min-width: 300px;
     height: 100%;
     border: 1px solid var(--second-color);
     /* overflow: hidden; */
     display: flex;
+    z-index: 5;
 }
 #left-navbar button:hover img{
     scale: 1.1;
@@ -36,6 +38,10 @@
 #main-content {
     position: relative;
     left: 20%;
+    /* left: 300px; */
+    /* overflow-x: scroll; */
+    /* max-width: 80%; */
+    /* min-width: 50%; */
     width: 80%;
     height: 100%;
 }
@@ -47,7 +53,7 @@
 #top-navbar .gjs-pn-btn{
     background-color: var(--primary-color);
     border: 2px solid var(--second-color);
-    border-radius: 10px;
+    border-radius: 8px;
 }
 #top-navbar .gjs-pn-btn:hover{
     /* background-color: var(--second-color); */
