@@ -78,6 +78,11 @@
     top: 0;
 }
 
+.gjs-block{
+    width: 100% !important;
+    padding: 0 !important;
+}
+
 /* .gjs-one-bg {
     background-color: var(--third-color) !important;
 } */
