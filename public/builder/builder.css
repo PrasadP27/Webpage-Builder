@@ -28,6 +28,14 @@
     border-radius: 15px 0 0 15px;
 }
 
+#element #element-content{
+    overflow-y: scroll;
+}
+
+#element #element-content::-webkit-scrollbar{
+    display: none;
+}
+
 .show{
     display: block;
 }
