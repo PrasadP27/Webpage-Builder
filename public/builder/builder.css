@@ -89,6 +89,7 @@
 .gjs-block{
     width: 100% !important;
     padding: 0 !important;
+    min-height: 20px !important;
 }
 
 /* .gjs-one-bg {
