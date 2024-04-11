@@ -9,7 +9,7 @@ const blocks = [
     <path d="M244.091 56.4545V51.4545H279V56.4545H264.364V98H258.727V56.4545H244.091ZM287.699 98V51.4545H315.79V56.4545H293.335V72.1818H314.335V77.1818H293.335V93H316.153V98H287.699ZM328.676 51.4545L340.676 70.8182H341.04L353.04 51.4545H359.676L345.04 74.7273L359.676 98H353.04L341.04 79H340.676L328.676 98H322.04L337.04 74.7273L322.04 51.4545H328.676ZM364.466 56.4545V51.4545H399.375V56.4545H384.739V98H379.102V56.4545H364.466Z" fill="#4A5568"/>
     </svg>`,
     content: `<h1 class="text-xl">Weblox</h1>`,
-  },{
+  }, {
     id: 'button',
     category: 'Basic',
     label: `<svg viewBox="0 0 645 138" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2529,6 +2529,20 @@ const editor = grapesjs.init({
             className: "btn-toggle-borders",
             label: '<img src="assets/icons/view-components.svg" alt="code">',
             command: "sw-visibility",
+          },
+          {
+            id: "undo",
+            className: "btn-undo",
+            label: "<img src='assets/icons/undo.svg' alt='Undo'>",
+            command: 'core:undo',
+            context: "panel-basic-actions"
+          },
+          {
+            id: "redo",
+            className: "btn-redo",
+            label: "<img src='assets/icons/redo.svg' alt='Redo'>",
+            command: "core:redo",
+            context: "panel-basic-actions"
           },
           {
             id: 'export',

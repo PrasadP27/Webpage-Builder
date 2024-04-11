@@ -33,17 +33,20 @@ xbtn.onclick = () => {
     hideLeftNav.to(element, {
         xPercent: -150,
         opacity: 0,
-        visibility: 'hidden'
+        visibility: 'hidden',
+        ease: "power1.out"
     })
     hideLeftNav.to(leftNav, {
         width: '0%',
         minWidth: '0px',
-        delay: -0.5
+        delay: -0.5,
+        ease: "power1.out"
     })
     hideLeftNav.to(main, {
         width: 'calc(100% - 50px)',
         left: '50px',
-        delay: -0.5
+        delay: -0.5,
+        ease: "power1.out"
     })
 
     tabButtons.forEach((button) => {
@@ -53,17 +56,20 @@ xbtn.onclick = () => {
             showLeftNav.to(element, {
                 xPercent: 0,
                 opacity: 1,
-                visibility: 'visible'
+                visibility: 'visible',
+                ease: "power1.out"
             })
             showLeftNav.to(leftNav, {
                 width: '20%',
                 minWidth: '300px',
-                delay: -0.5
+                delay: -0.5,
+                ease: "power1.out"
             })
             showLeftNav.to(main, {
                 width: '80%',
                 left: '20%',
-                delay: -0.5
+                delay: -0.5,
+                ease: "power1.out"
             })
         });
         // for element-navbar
