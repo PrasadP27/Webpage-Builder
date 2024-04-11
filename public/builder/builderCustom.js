@@ -20,3 +20,22 @@ tabButtons.forEach((button) => {
         targetTabContent.classList.add('show');
     });
 });
+
+// for elements
+
+const xbtn = document.querySelector('.xbtn')
+const element = document.querySelector("#element")
+
+xbtn.onclick = () => {
+    element.classList.add('hidden')
+    element.classList.remove('show')
+
+    tabButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+            element.classList.remove('hidden')
+            element.classList.add('show');
+        });
+        // for element-navbar 
+        button.classList.remove('active')
+    }); 
+}
