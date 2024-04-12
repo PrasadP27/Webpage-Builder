@@ -2504,18 +2504,30 @@ const editor = grapesjs.init({
             command: "set-device-desktop",
             active: true,
             togglable: false,
+            attributes: {
+              'title': 'Desktop View',
+              'data-tooltip-pos': 'bottom',
+            },
           },
           {
             id: 'device-tablet',
             label: '<img src="assets/icons/tablet.svg" alt="tablet">',
             command: 'set-device-tablet',
             togglable: false,
+            attributes: {
+              'title': 'Tablet view',
+              'data-tooltip-pos': 'bottom',
+            },
           },
           {
             id: "device-mobile",
             label: '<img src="assets/icons/mobile.svg" alt="mobile">',
             command: "set-device-mobile",
-            togglable: false
+            togglable: false,
+            attributes: {
+              'title': 'Mobile view',
+              'data-tooltip-pos': 'bottom',
+            },
           }
         ]
       },
@@ -2529,70 +2541,103 @@ const editor = grapesjs.init({
             className: "btn-toggle-borders",
             label: '<img src="assets/icons/view-components.svg" alt="code">',
             command: "sw-visibility",
+            attributes: {
+              'title': 'View Components',
+              'data-tooltip-pos': 'bottom',
+            },
           },
           {
-            id: "undo",
-            className: "btn-undo",
-            label: "<img src='assets/icons/undo.svg' alt='Undo'>",
-            command: 'core:undo',
-            context: "panel-basic-actions"
-          },
-          {
-            id: "redo",
-            className: "btn-redo",
-            label: "<img src='assets/icons/redo.svg' alt='Redo'>",
-            command: "core:redo",
-            context: "panel-basic-actions"
-          },
-          {
-            id: 'export',
-            className: 'btn-open-export',
+            id: 'code',
+            className: 'btn-open-code',
             label: '<img src="assets/icons/code.svg" alt="code">',
             command: 'export-template',
             context: 'export-template',
-          }
-        ]
+          attributes: {
+            'title': 'Code',
+            'data-tooltip-pos': 'bottom'
+          },
+          },
+      {
+        id: "undo",
+        className: "btn-undo",
+        label: "<img src='assets/icons/undo.svg' alt='Undo'>",
+        command: 'core:undo',
+        context: "panel-basic-actions",
+        attributes: {
+          'title': 'Undo',
+          'data-tooltip-pos': 'bottom',
+        },
+      },
+      {
+        id: "redo",
+        className: "btn-redo",
+        label: "<img src='assets/icons/redo.svg' alt='Redo'>",
+        command: "core:redo",
+        context: "panel-basic-actions",
+        attributes: {
+          'title': 'Redo',
+          'data-tooltip-pos': 'bottom',
+        },
+      },
+      {
+        id: "export",
+        className: "btn-export",
+        label: "<img src='assets/icons/export.svg' alt='export'>",
+        command: "export",
+        attributes: {
+          'title': 'Import Code',
+          'data-tooltip-pos': 'bottom',
+        },
       }
+    ]
+  }
     ]
   },
 
-  deviceManager: {
-    devices: [
-      {
-        name: "Desktop",
-        width: ""
-      },
-      {
-        name: "Tablet",
-        width: "768px",
-        widthMedia: "992px"
-      },
-      {
-        name: "Mobile",
-        width: "320px",
-        widthMedia: "480px"
-      }
-    ]
-  },
+deviceManager: {
+  devices: [
+    {
+      name: "Desktop",
+      width: ""
+    },
+    {
+      name: "Tablet",
+      width: "768px",
+      widthMedia: "992px"
+    },
+    {
+      name: "Mobile",
+      width: "320px",
+      widthMedia: "480px"
+    }
+  ]
+},
 
-  blockManager: {
-    appendTo: '#blocks',
+blockManager: {
+  appendTo: '#blocks',
     blocks: blocks
+},
+
+layerManager: {
+  appendTo: '#layers-container'
+},
+
+selectorManager: {
+  appendTo: '#styles-container'
+},
+
+traitManager: {
+  appendTo: '#trait-container',
   },
 
-  layerManager: {
-    appendTo: '#layers-container'
-  },
-
-  selectorManager: {
-    appendTo: '#styles-container'
-  },
-
-  traitManager: {
-    appendTo: '#trait-container',
-  },
-
-
+plugins: [
+  'grapesjs-plugin-export',
+  'grapesjs-tooltip'
+],
+  pluginsOpts: {
+  'grapesjs-plugin-export': { },
+  'grapesjs-tooltip': {}
+}
 });
 
 
@@ -2611,3 +2656,9 @@ editor.Commands.add('set-device-mobile', {
 
 // Set the initial device
 editor.setDevice('Desktop');
+
+
+//for export code 
+editor.Commands.add("export", {
+  run: (editor) => editor.runCommand('gjs-export-zip')
+})
