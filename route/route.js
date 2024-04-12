@@ -7,7 +7,7 @@ const router = express.Router()
 //     })
 // })
 
-router.get("/", (req, res) => {
+router.get("/builder", (req, res) => {
     res.render("builder", {
         title: ' | Builder',
         style: 'builder/builder',

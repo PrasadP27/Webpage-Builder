@@ -2588,6 +2588,16 @@ const editor = grapesjs.init({
           'title': 'Import Code',
           'data-tooltip-pos': 'bottom',
         },
+      },
+      {
+        id: "guide",
+        className: "btn-guide",
+        label: "<img src='assets/icons/question.svg' alt='guide'>",
+        command: "guide",
+        attributes: {
+          'title': 'Beginner Guide',
+          'data-tooltip-pos': 'bottom',
+        },
       }
     ]
   }
@@ -2662,3 +2672,17 @@ editor.setDevice('Desktop');
 editor.Commands.add("export", {
   run: (editor) => editor.runCommand('gjs-export-zip')
 })
+
+editor.Commands.add("guide", {
+  run: (editor) => {
+    // Run a custom command that performs the redirection
+    editor.runCommand('go-to-guide');
+  }
+});
+
+editor.Commands.add("go-to-guide", {
+  run: (editor) => {
+    // Redirect the user to the "guide" route
+    window.location.href = '/guide';
+  }
+});
