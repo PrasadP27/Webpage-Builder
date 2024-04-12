@@ -2500,7 +2500,7 @@ const editor = grapesjs.init({
         buttons: [
           {
             id: "device-desktop",
-            label: '<img src="assets/icons/desktop.svg" alt="desktop">',
+            label: '<img src="/assets/icons/desktop.svg" alt="desktop">',
             command: "set-device-desktop",
             active: true,
             togglable: false,
@@ -2511,7 +2511,7 @@ const editor = grapesjs.init({
           },
           {
             id: 'device-tablet',
-            label: '<img src="assets/icons/tablet.svg" alt="tablet">',
+            label: '<img src="/assets/icons/tablet.svg" alt="tablet">',
             command: 'set-device-tablet',
             togglable: false,
             attributes: {
@@ -2521,7 +2521,7 @@ const editor = grapesjs.init({
           },
           {
             id: "device-mobile",
-            label: '<img src="assets/icons/mobile.svg" alt="mobile">',
+            label: '<img src="/assets/icons/mobile.svg" alt="mobile">',
             command: "set-device-mobile",
             togglable: false,
             attributes: {
@@ -2539,7 +2539,7 @@ const editor = grapesjs.init({
             id: "visibility",
             active: true,
             className: "btn-toggle-borders",
-            label: '<img src="assets/icons/view-components.svg" alt="code">',
+            label: '<img src="/assets/icons/view-components.svg" alt="code">',
             command: "sw-visibility",
             attributes: {
               'title': 'View Components',
@@ -2549,7 +2549,7 @@ const editor = grapesjs.init({
           {
             id: 'code',
             className: 'btn-open-code',
-            label: '<img src="assets/icons/code.svg" alt="code">',
+            label: '<img src="/assets/icons/code.svg" alt="code">',
             command: 'export-template',
             context: 'export-template',
           attributes: {
@@ -2560,7 +2560,7 @@ const editor = grapesjs.init({
       {
         id: "undo",
         className: "btn-undo",
-        label: "<img src='assets/icons/undo.svg' alt='Undo'>",
+        label: "<img src='/assets/icons/undo.svg' alt='Undo'>",
         command: 'core:undo',
         context: "panel-basic-actions",
         attributes: {
@@ -2571,7 +2571,7 @@ const editor = grapesjs.init({
       {
         id: "redo",
         className: "btn-redo",
-        label: "<img src='assets/icons/redo.svg' alt='Redo'>",
+        label: "<img src='/assets/icons/redo.svg' alt='Redo'>",
         command: "core:redo",
         context: "panel-basic-actions",
         attributes: {
@@ -2582,7 +2582,7 @@ const editor = grapesjs.init({
       {
         id: "export",
         className: "btn-export",
-        label: "<img src='assets/icons/export.svg' alt='export'>",
+        label: "<img src='/assets/icons/export.svg' alt='export'>",
         command: "export",
         attributes: {
           'title': 'Import Code',
@@ -2592,7 +2592,7 @@ const editor = grapesjs.init({
       {
         id: "guide",
         className: "btn-guide",
-        label: "<img src='assets/icons/question.svg' alt='guide'>",
+        label: "<img src='/assets/icons/question.svg' alt='guide'>",
         command: "guide",
         attributes: {
           'title': 'Beginner Guide',
