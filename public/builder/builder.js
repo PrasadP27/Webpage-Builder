@@ -15,11 +15,11 @@ const blocks = [
     label: `<svg viewBox="0 0 645 138" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect fill="#F5F5F5"/>
     <rect width=100% height=100% fill="white"/>
-    <path d="M233 54C233 45.7157 239.716 39 248 39H397C405.284 39 412 45.7157 412 54V84C412 92.2843 405.284 99 397 99H248C239.716 99 233 92.2843 233 84V54Z" fill="#8B5CF6"/>
+    <path d="M233 54C233 45.7157 239.716 39 248 39H397C405.284 39 412 45.7157 412 54V84C412 92.2843 405.284 99 397 99H248C239.716 99 233 92.2843 233 84V54Z" fill="#3b82f6"/>
     <path d="M290.114 76V58.5455H296.216C297.432 58.5455 298.435 58.7557 299.224 59.1761C300.014 59.5909 300.602 60.1506 300.989 60.8551C301.375 61.554 301.568 62.3295 301.568 63.1818C301.568 63.9318 301.435 64.5511 301.168 65.0398C300.906 65.5284 300.56 65.9148 300.128 66.1989C299.702 66.483 299.239 66.6932 298.739 66.8295V67C299.273 67.0341 299.81 67.2216 300.349 67.5625C300.889 67.9034 301.341 68.392 301.705 69.0284C302.068 69.6648 302.25 70.4432 302.25 71.3636C302.25 72.2386 302.051 73.0256 301.653 73.7244C301.256 74.4233 300.628 74.9773 299.77 75.3864C298.912 75.7955 297.795 76 296.42 76H290.114ZM292.227 74.125H296.42C297.801 74.125 298.781 73.858 299.361 73.3239C299.946 72.7841 300.239 72.1307 300.239 71.3636C300.239 70.7727 300.088 70.2273 299.787 69.7273C299.486 69.2216 299.057 68.8182 298.5 68.517C297.943 68.2102 297.284 68.0568 296.523 68.0568H292.227V74.125ZM292.227 66.2159H296.148C296.784 66.2159 297.358 66.0909 297.869 65.8409C298.386 65.5909 298.795 65.2386 299.097 64.7841C299.403 64.3295 299.557 63.7955 299.557 63.1818C299.557 62.4148 299.29 61.7642 298.756 61.2301C298.222 60.6903 297.375 60.4205 296.216 60.4205H292.227V66.2159ZM313.7 70.6477V62.9091H315.712V76H313.7V73.7841H313.564C313.257 74.4489 312.78 75.0142 312.132 75.4801C311.484 75.9403 310.666 76.1705 309.678 76.1705C308.859 76.1705 308.132 75.9915 307.496 75.6335C306.859 75.2699 306.359 74.7244 305.996 73.9972C305.632 73.2642 305.45 72.3409 305.45 71.2273V62.9091H307.462V71.0909C307.462 72.0455 307.729 72.8068 308.263 73.375C308.803 73.9432 309.49 74.2273 310.325 74.2273C310.825 74.2273 311.334 74.0994 311.851 73.8438C312.374 73.5881 312.811 73.196 313.163 72.6676C313.521 72.1392 313.7 71.4659 313.7 70.6477ZM325.089 62.9091V64.6136H318.305V62.9091H325.089ZM320.282 59.7727H322.293V72.25C322.293 72.8182 322.376 73.2443 322.54 73.5284C322.711 73.8068 322.927 73.9943 323.188 74.0909C323.455 74.1818 323.737 74.2273 324.032 74.2273C324.254 74.2273 324.435 74.2159 324.577 74.1932C324.719 74.1648 324.833 74.142 324.918 74.125L325.327 75.9318C325.191 75.983 325.001 76.0341 324.756 76.0852C324.512 76.142 324.202 76.1705 323.827 76.1705C323.259 76.1705 322.702 76.0483 322.157 75.804C321.617 75.5597 321.168 75.1875 320.81 74.6875C320.458 74.1875 320.282 73.5568 320.282 72.7955V59.7727ZM333.808 62.9091V64.6136H327.023V62.9091H333.808ZM329.001 59.7727H331.012V72.25C331.012 72.8182 331.094 73.2443 331.259 73.5284C331.43 73.8068 331.646 73.9943 331.907 74.0909C332.174 74.1818 332.455 74.2273 332.751 74.2273C332.972 74.2273 333.154 74.2159 333.296 74.1932C333.438 74.1648 333.552 74.142 333.637 74.125L334.046 75.9318C333.91 75.983 333.719 76.0341 333.475 76.0852C333.231 76.142 332.921 76.1705 332.546 76.1705C331.978 76.1705 331.421 76.0483 330.876 75.804C330.336 75.5597 329.887 75.1875 329.529 74.6875C329.177 74.1875 329.001 73.5568 329.001 72.7955V59.7727ZM342.011 76.2727C340.829 76.2727 339.792 75.9915 338.9 75.429C338.013 74.8665 337.32 74.0795 336.82 73.0682C336.326 72.0568 336.079 70.875 336.079 69.5227C336.079 68.1591 336.326 66.9687 336.82 65.9517C337.32 64.9347 338.013 64.1449 338.9 63.5824C339.792 63.0199 340.829 62.7386 342.011 62.7386C343.192 62.7386 344.227 63.0199 345.113 63.5824C346.005 64.1449 346.698 64.9347 347.192 65.9517C347.692 66.9687 347.942 68.1591 347.942 69.5227C347.942 70.875 347.692 72.0568 347.192 73.0682C346.698 74.0795 346.005 74.8665 345.113 75.429C344.227 75.9915 343.192 76.2727 342.011 76.2727ZM342.011 74.4659C342.908 74.4659 343.647 74.2358 344.227 73.7756C344.806 73.3153 345.235 72.7102 345.513 71.9602C345.792 71.2102 345.931 70.3977 345.931 69.5227C345.931 68.6477 345.792 67.8324 345.513 67.0767C345.235 66.321 344.806 65.7102 344.227 65.2443C343.647 64.7784 342.908 64.5455 342.011 64.5455C341.113 64.5455 340.374 64.7784 339.795 65.2443C339.215 65.7102 338.786 66.321 338.508 67.0767C338.229 67.8324 338.09 68.6477 338.09 69.5227C338.09 70.3977 338.229 71.2102 338.508 71.9602C338.786 72.7102 339.215 73.3153 339.795 73.7756C340.374 74.2358 341.113 74.4659 342.011 74.4659ZM353.024 68.125V76H351.013V62.9091H352.956V64.9545H353.126C353.433 64.2898 353.899 63.7557 354.524 63.3523C355.149 62.9432 355.956 62.7386 356.945 62.7386C357.831 62.7386 358.607 62.9205 359.271 63.2841C359.936 63.642 360.453 64.1875 360.822 64.9205C361.192 65.6477 361.376 66.5682 361.376 67.6818V76H359.365V67.8182C359.365 66.7898 359.098 65.9886 358.564 65.4148C358.03 64.8352 357.297 64.5455 356.365 64.5455C355.723 64.5455 355.149 64.6847 354.643 64.9631C354.143 65.2415 353.749 65.6477 353.459 66.1818C353.169 66.7159 353.024 67.3636 353.024 68.125Z" fill="white"/>
     </svg>
     `,
-    content: `<button class="flex m-5 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-md text-lg">Button</button>`,
+    content: `<button class="flex m-5 text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-md text-lg">Button</button>`,
   },
 
   // header
@@ -31,7 +31,7 @@ const blocks = [
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
     <path stroke="#e2e8f0" d="M266 38.5H0" />
     <rect x=217 y=14 width=29 height=10 rx=2 fill="#cbd5e0" />
-    <circle cx=29 cy=19 r=9 fill="#7f9cf5" />
+    <circle cx=29 cy=19 r=9 fill="#3b82f6" />
     <rect x=150.132 y=17 width=16.604 height=4 rx=2 fill="#4a5568" />
     <rect x=171.264 y=17 width=16.604 height=4 rx=2 fill="#4a5568" />
     <rect x=192.396 y=17 width=16.604 height=4 rx=2 fill="#4a5568" />
@@ -41,7 +41,7 @@ const blocks = [
     <header class="text-gray-600 body-font">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
           <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
         </svg>
         <span class="ml-3 text-xl">Weblox</span>
@@ -67,7 +67,7 @@ const blocks = [
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
     <path stroke="#e2e8f0" d="M266 38.5H0" />
     <rect x=141 y=14 width=29 height=10 rx=2 fill="#cbd5e0" />
-    <circle cx=29 cy=19 r=9 fill="#7f9cf5" />
+    <circle cx=29 cy=19 r=9 fill="#3b82f6" />
     <rect x=74.132 y=17 width=16.604 height=4 rx=2 fill="#4a5568" />
     <rect x=95.264 y=17 width=16.604 height=4 rx=2 fill="#4a5568" />
     <rect x=116.396 y=17 width=16.604 height=4 rx=2 fill="#4a5568" />
@@ -78,7 +78,7 @@ const blocks = [
     content: `<header class="text-gray-600 body-font">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
           <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
         </svg>
         <span class="ml-3 text-xl">Weblox</span>
@@ -104,7 +104,7 @@ const blocks = [
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
     <path stroke="#e2e8f0" d="M266 38.5H0" />
     <rect x=217 y=14 width=29 height=10 rx=2 fill="#cbd5e0" />
-    <circle cx=133 cy=19 r=9 fill="#7f9cf5" />
+    <circle cx=133 cy=19 r=9 fill="#3b82f6" />
     <rect x=62.264 y=17 width=16.604 height=4 rx=2 fill="#4a5568" />
     <rect x=41.132 y=17 width=16.604 height=4 rx=2 fill="#4a5568" />
     <rect x=83.396 y=17 width=16.604 height=4 rx=2 fill="#4a5568" />
@@ -119,7 +119,7 @@ const blocks = [
     <a class="hover:text-gray-900">Fourth Link</a>
   </nav>
   <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
       <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
     </svg>
     <span class="ml-3 text-xl">Weblox</span>
@@ -141,7 +141,7 @@ const blocks = [
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
     <path stroke="#e2e8f0" d="M266 38.5H0" />
     <rect x=217 y=14 width=29 height=10 rx=2 fill="#cbd5e0" />
-    <circle cx=29 cy=19 r=9 fill="#7f9cf5" />
+    <circle cx=29 cy=19 r=9 fill="#3b82f6" />
     <rect x=129.264 y=17 width=16.604 height=4 rx=2 fill="#4a5568" />
     <rect x=108.132 y=17 width=16.604 height=4 rx=2 fill="#4a5568" />
     <rect x=150.396 y=17 width=16.604 height=4 rx=2 fill="#4a5568" />
@@ -150,7 +150,7 @@ const blocks = [
     content: `<header class="text-gray-600 body-font">
 <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
   <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
       <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
     </svg>
     <span class="ml-3 text-xl">Weblox</span>
@@ -177,7 +177,7 @@ const blocks = [
     category: 'Hero',
     label: `<svg viewBox="0 0 266 150" fill="none">
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
-    <rect x=20 y=86 width=29 height=10 rx=2 fill="#7f9cf5" />
+    <rect x=20 y=86 width=29 height=10 rx=2 fill="#3b82f6" />
     <rect x=55 y=86 width=29 height=10 rx=2 fill="#cbd5e0" />
     <rect x=20 y=64 width=104 height=4 rx=2 fill="#a0aec0" />
     <rect x=20 y=53 width=72 height=5 rx=2.5 fill="#4a5568" />
@@ -194,7 +194,7 @@ const blocks = [
         </h1>
         <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
         <div class="flex justify-center">
-          <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+          <button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
           <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
         </div>
       </div>
@@ -210,7 +210,7 @@ const blocks = [
     label: `<svg viewBox="0 0 266 150" fill="none">
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
     <rect x=136 y=114 width=29 height=10 rx=2 fill="#cbd5e0" />
-    <rect x=101 y=114 width=29 height=10 rx=2 fill="#7f9cf5" />
+    <rect x=101 y=114 width=29 height=10 rx=2 fill="#3b82f6" />
     <rect x=81 y=92 width=104 height=4 rx=2 fill="#a0aec0" />
     <rect x=97 y=81 width=72 height=5 rx=2.5 fill="#4a5568" />
     <rect x=85 y=100 width=97 height=4 rx=2 fill="#a0aec0" />
@@ -226,7 +226,7 @@ const blocks = [
         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Microdosing synth tattooed vexillologist</h1>
         <p class="mb-8 leading-relaxed">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over meditation PBR&B pickled ennui celiac mlkshk freegan photo booth af fingerstache pitchfork.</p>
         <div class="flex justify-center">
-          <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+          <button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
           <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
         </div>
       </div>
@@ -238,7 +238,7 @@ const blocks = [
     category: 'Hero',
     label: `<svg viewBox="0 0 266 150" fill="none">
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
-    <rect x=133 y=86 width=29 height=10 rx=2 fill="#7f9cf5" />
+    <rect x=133 y=86 width=29 height=10 rx=2 fill="#3b82f6" />
     <rect x=168 y=86 width=29 height=10 rx=2 fill="#cbd5e0" />
     <rect x=133 y=64 width=104 height=4 rx=2 fill="#a0aec0" />
     <rect x=133 y=53 width=72 height=5 rx=2.5 fill="#4a5568" />
@@ -258,7 +258,7 @@ const blocks = [
         </h1>
         <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
         <div class="flex justify-center">
-          <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+          <button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
           <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
         </div>
       </div>
@@ -273,35 +273,35 @@ const blocks = [
     category: 'About',
     label: `<svg viewBox="0 0 266 150" fill="none">
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
-    <rect x=113 y=120 width=40 height=10 rx=2 fill="#7f9cf5" />
+    <rect x=113 y=120 width=40 height=10 rx=2 fill="#3b82f6" />
     <rect x=81 y=31 width=104.391 height=4 rx=2 fill="#a0aec0" />
     <rect x=96 y=20 width=74 height=5 rx=2.5 fill="#4a5568" />
     <rect x=85 y=39 width=97.365 height=4 rx=2 fill="#a0aec0" />
     <rect x=26 y=73 width=28 height=3 rx=1.5 fill="#4a5568" />
     <rect x=26 y=79 width=34 height=2 rx=1 fill="#a0aec0" />
     <rect x=26 y=84 width=38 height=2 rx=1 fill="#a0aec0" />
-    <rect x=26 y=89 width=24 height=2 rx=1 fill="#7f9cf5" />
+    <rect x=26 y=89 width=24 height=2 rx=1 fill="#3b82f6" />
     <rect x=20 y=62 width=1 height=39 rx=0.5 fill="#cbd5e0" />
     <rect x=86 y=73 width=28 height=3 rx=1.5 fill="#4a5568" />
     <rect x=86 y=79 width=34 height=2 rx=1 fill="#a0aec0" />
     <rect x=86 y=84 width=38 height=2 rx=1 fill="#a0aec0" />
-    <rect x=86 y=89 width=24 height=2 rx=1 fill="#7f9cf5" />
+    <rect x=86 y=89 width=24 height=2 rx=1 fill="#3b82f6" />
     <rect x=80 y=62 width=1 height=39 rx=0.5 fill="#cbd5e0" />
     <rect x=146.136 y=73 width=28.636 height=3 rx=1.5 fill="#4a5568" />
     <rect x=146.136 y=79 width=34.773 height=2 rx=1 fill="#a0aec0" />
     <rect x=146.136 y=84 width=38.864 height=2 rx=1 fill="#a0aec0" />
-    <rect x=146.136 y=89 width=24.546 height=2 rx=1 fill="#7f9cf5" />
+    <rect x=146.136 y=89 width=24.546 height=2 rx=1 fill="#3b82f6" />
     <rect x=140 y=62 width=1.023 height=39 rx=0.511 fill="#cbd5e0" />
     <rect x=207.136 y=73 width=28.636 height=3 rx=1.5 fill="#4a5568" />
     <rect x=207.136 y=79 width=34.773 height=2 rx=1 fill="#a0aec0" />
     <rect x=207.136 y=84 width=38.864 height=2 rx=1 fill="#a0aec0" />
-    <rect x=207.136 y=89 width=24.546 height=2 rx=1 fill="#7f9cf5" />
+    <rect x=207.136 y=89 width=24.546 height=2 rx=1 fill="#3b82f6" />
     <rect x=201 y=62 width=1.023 height=39 rx=0.511 fill="#cbd5e0" />
 </svg>`,
     content: `<section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
-        <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2>
+        <h2 class="text-xs text-blue-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2>
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
       </div>
@@ -309,7 +309,7 @@ const blocks = [
         <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
           <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
           <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-          <a class="text-indigo-500 inline-flex items-center">Learn More
+          <a class="text-blue-500 inline-flex items-center">Learn More
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
@@ -318,7 +318,7 @@ const blocks = [
         <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
           <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">The Catalyzer</h2>
           <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-          <a class="text-indigo-500 inline-flex items-center">Learn More
+          <a class="text-blue-500 inline-flex items-center">Learn More
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
@@ -327,7 +327,7 @@ const blocks = [
         <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
           <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Neptune</h2>
           <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-          <a class="text-indigo-500 inline-flex items-center">Learn More
+          <a class="text-blue-500 inline-flex items-center">Learn More
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
@@ -336,14 +336,14 @@ const blocks = [
         <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
           <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Melanchole</h2>
           <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-          <a class="text-indigo-500 inline-flex items-center">Learn More
+          <a class="text-blue-500 inline-flex items-center">Learn More
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </a>
         </div>
       </div>
-      <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+      <button class="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
     </div>
   </section>`
   },
@@ -361,35 +361,35 @@ const blocks = [
         stroke="#a0aec0" strokeLinecap="round" strokeLinejoin="round" />
     <rect x=24 y=108 width=28 height=2 rx=1 fill="#4a5568" />
     <rect x=24 y=112 width=34 height=2 rx=1 fill="#a0aec0" />
-    <rect x=24 y=104 width=10 height=2 rx=1 fill="#7f9cf5" />
+    <rect x=24 y=104 width=10 height=2 rx=1 fill="#3b82f6" />
     <rect x=79 y=74 width=50 height=44 rx=2 fill="#e2e8f0" />
     <path
         d="M99.333 95h9.334c.736 0 1.333-.597 1.333-1.333v-9.334c0-.736-.597-1.333-1.333-1.333h-9.334c-.736 0-1.333.597-1.333 1.333v9.334c0 .736.597 1.333 1.333 1.333zm0 0l7.334-7.333L110 91m-7.333-4.333a1 1 0 11-2 0 1 1 0 012 0z"
         stroke="#a0aec0" strokeLinecap="round" strokeLinejoin="round" />
     <rect x=83 y=108 width=28 height=2 rx=1 fill="#4a5568" />
     <rect x=83 y=112 width=34 height=2 rx=1 fill="#a0aec0" />
-    <rect x=83 y=104 width=10 height=2 rx=1 fill="#7f9cf5" />
+    <rect x=83 y=104 width=10 height=2 rx=1 fill="#3b82f6" />
     <rect x=138 y=74 width=50 height=44 rx=2 fill="#e2e8f0" />
     <path
         d="M158.333 95h9.334c.736 0 1.333-.597 1.333-1.333v-9.334c0-.736-.597-1.333-1.333-1.333h-9.334c-.736 0-1.333.597-1.333 1.333v9.334c0 .736.597 1.333 1.333 1.333zm0 0l7.334-7.333L169 91m-7.333-4.333a1 1 0 11-2 0 1 1 0 012 0z"
         stroke="#a0aec0" strokeLinecap="round" strokeLinejoin="round" />
     <rect x=142 y=108 width=28 height=2 rx=1 fill="#4a5568" />
     <rect x=142 y=112 width=34 height=2 rx=1 fill="#a0aec0" />
-    <rect x=142 y=104 width=10 height=2 rx=1 fill="#7f9cf5" />
+    <rect x=142 y=104 width=10 height=2 rx=1 fill="#3b82f6" />
     <rect x=197 y=74 width=50 height=44 rx=2 fill="#e2e8f0" />
     <path
         d="M217.333 95h9.334c.736 0 1.333-.597 1.333-1.333v-9.334c0-.736-.597-1.333-1.333-1.333h-9.334c-.736 0-1.333.597-1.333 1.333v9.334c0 .736.597 1.333 1.333 1.333zm0 0l7.334-7.333L228 91m-7.333-4.333a1 1 0 11-2 0 1 1 0 012 0z"
         stroke="#a0aec0" strokeLinecap="round" strokeLinejoin="round" />
     <rect x=201 y=108 width=28 height=2 rx=1 fill="#4a5568" />
     <rect x=201 y=112 width=34 height=2 rx=1 fill="#a0aec0" />
-    <rect x=201 y=104 width=10 height=2 rx=1 fill="#7f9cf5" />
+    <rect x=201 y=104 width=10 height=2 rx=1 fill="#3b82f6" />
 </svg>`,
     content: `<section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-wrap w-full mb-20">
         <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
           <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Pitchfork Kickstarter Taxidermy</h1>
-          <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+          <div class="h-1 w-20 bg-blue-500 rounded"></div>
         </div>
         <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
       </div>
@@ -397,7 +397,7 @@ const blocks = [
         <div class="xl:w-1/4 md:w-1/2 p-4">
           <div class="bg-gray-100 p-6 rounded-lg">
             <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content">
-            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+            <h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">SUBTITLE</h3>
             <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Chichen Itza</h2>
             <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
           </div>
@@ -405,7 +405,7 @@ const blocks = [
         <div class="xl:w-1/4 md:w-1/2 p-4">
           <div class="bg-gray-100 p-6 rounded-lg">
             <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="content">
-            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+            <h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">SUBTITLE</h3>
             <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Colosseum Roma</h2>
             <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
           </div>
@@ -413,7 +413,7 @@ const blocks = [
         <div class="xl:w-1/4 md:w-1/2 p-4">
           <div class="bg-gray-100 p-6 rounded-lg">
             <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="content">
-            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+            <h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">SUBTITLE</h3>
             <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Great Pyramid of Giza</h2>
             <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
           </div>
@@ -421,7 +421,7 @@ const blocks = [
         <div class="xl:w-1/4 md:w-1/2 p-4">
           <div class="bg-gray-100 p-6 rounded-lg">
             <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content">
-            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+            <h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">SUBTITLE</h3>
             <h2 class="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
             <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
           </div>
@@ -435,7 +435,7 @@ const blocks = [
     category: 'About',
     label: `<svg viewBox="0 0 266 150" fill="none">
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
-    <rect x=113 y=120 width=40 height=10 rx=2 fill="#7f9cf5" />
+    <rect x=113 y=120 width=40 height=10 rx=2 fill="#3b82f6" />
     <rect x=81 y=31 width=104.391 height=4 rx=2 fill="#a0aec0" />
     <rect x=96 y=20 width=74 height=5 rx=2.5 fill="#4a5568" />
     <rect x=20.5 y=51.5 width=69 height=23 rx=1.5 fill="#F9F9F9" stroke="#cbd5e0" />
@@ -472,7 +472,7 @@ const blocks = [
       <div class="flex flex-wrap -m-4">
         <div class="xl:w-1/3 md:w-1/2 p-4">
           <div class="border border-gray-200 p-6 rounded-lg">
-            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-4">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
                 <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
               </svg>
@@ -483,7 +483,7 @@ const blocks = [
         </div>
         <div class="xl:w-1/3 md:w-1/2 p-4">
           <div class="border border-gray-200 p-6 rounded-lg">
-            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-4">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
                 <circle cx="6" cy="6" r="3"></circle>
                 <circle cx="6" cy="18" r="3"></circle>
@@ -496,7 +496,7 @@ const blocks = [
         </div>
         <div class="xl:w-1/3 md:w-1/2 p-4">
           <div class="border border-gray-200 p-6 rounded-lg">
-            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-4">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
                 <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
                 <circle cx="12" cy="7" r="4"></circle>
@@ -508,7 +508,7 @@ const blocks = [
         </div>
         <div class="xl:w-1/3 md:w-1/2 p-4">
           <div class="border border-gray-200 p-6 rounded-lg">
-            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-4">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
                 <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
               </svg>
@@ -519,7 +519,7 @@ const blocks = [
         </div>
         <div class="xl:w-1/3 md:w-1/2 p-4">
           <div class="border border-gray-200 p-6 rounded-lg">
-            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-4">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
                 <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
               </svg>
@@ -530,7 +530,7 @@ const blocks = [
         </div>
         <div class="xl:w-1/3 md:w-1/2 p-4">
           <div class="border border-gray-200 p-6 rounded-lg">
-            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-4">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
               </svg>
@@ -540,7 +540,7 @@ const blocks = [
           </div>
         </div>
       </div>
-      <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+      <button class="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
     </div>
   </section>`
   },
@@ -553,7 +553,7 @@ const blocks = [
     <path
         d="M106 83a2 2 0 012-2h103.337a2 2 0 110 4H108a2 2 0 01-2-2zM106 107a2 2 0 012-2h95a2 2 0 110 4h-95a2 2 0 01-2-2zM106 91a2 2 0 012-2h121a2 2 0 110 4H108a2 2 0 01-2-2zM106 99a2 2 0 012-2h82.957a2 2 0 010 4H108a2 2 0 01-2-2z"
         fill="#a0aec0" />
-    <path d="M106 115a2 2 0 012-2h20a2 2 0 110 4h-20a2 2 0 01-2-2z" fill="#7f9cf5" />
+    <path d="M106 115a2 2 0 012-2h20a2 2 0 110 4h-20a2 2 0 01-2-2z" fill="#3b82f6" />
     <path d="M45 104a2 2 0 012-2h20a2 2 0 110 4H47a2 2 0 01-2-2z" fill="#4a5568" />
     <rect x=37 y=110 width=40 height=2 rx=1 fill="#a0aec0" />
     <rect x=35 y=120 width=44 height=2 rx=1 fill="#a0aec0" />
@@ -580,13 +580,13 @@ const blocks = [
             </div>
             <div class="flex flex-col items-center text-center justify-center">
               <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Phoebe Caulfield</h2>
-              <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+              <div class="w-12 h-1 bg-blue-500 rounded mt-2 mb-4"></div>
               <p class="text-base">Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland.</p>
             </div>
           </div>
           <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
             <p class="leading-relaxed text-lg mb-4">Meggings portland fingerstache lyft, post-ironic fixie man bun banh mi umami everyday carry hexagon locavore direct trade art party. Locavore small batch listicle gastropub farm-to-table lumbersexual salvia messenger bag. Coloring book flannel truffaut craft beer drinking vinegar sartorial, disrupt fashion axe normcore meh butcher. Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn.</p>
-            <a class="text-indigo-500 inline-flex items-center">Learn More
+            <a class="text-blue-500 inline-flex items-center">Learn More
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
@@ -611,19 +611,19 @@ const blocks = [
     <path
         d="M38 94.5a1.5 1.5 0 011.5-1.5h48a1.5 1.5 0 010 3h-48a1.5 1.5 0 01-1.5-1.5zM38 101.5a1.5 1.5 0 011.5-1.5h38a1.5 1.5 0 010 3h-38a1.5 1.5 0 01-1.5-1.5z"
         fill="#a0aec0" />
-    <path d="M38 108.5a1.5 1.5 0 011.5-1.5h13a1.5 1.5 0 010 3h-13a1.5 1.5 0 01-1.5-1.5z" fill="#7f9cf5" />
+    <path d="M38 108.5a1.5 1.5 0 011.5-1.5h13a1.5 1.5 0 010 3h-13a1.5 1.5 0 01-1.5-1.5z" fill="#3b82f6" />
     <rect x=38 y=84 width=43 height=4 rx=2 fill="#4a5568" />
     <circle cx=105 cy=90 r=6 fill="#c3dafe" />
     <path
         d="M117 94.5a1.5 1.5 0 011.5-1.5h48a1.5 1.5 0 010 3h-48a1.5 1.5 0 01-1.5-1.5zM117 101.5a1.5 1.5 0 011.5-1.5h38a1.5 1.5 0 010 3h-38a1.5 1.5 0 01-1.5-1.5z"
         fill="#a0aec0" />
-    <path d="M117 108.5a1.5 1.5 0 011.5-1.5h13a1.5 1.5 0 010 3h-13a1.5 1.5 0 01-1.5-1.5z" fill="#7f9cf5" />
+    <path d="M117 108.5a1.5 1.5 0 011.5-1.5h13a1.5 1.5 0 010 3h-13a1.5 1.5 0 01-1.5-1.5z" fill="#3b82f6" />
     <rect x=117 y=84 width=43 height=4 rx=2 fill="#4a5568" />
     <circle cx=184 cy=90 r=6 fill="#c3dafe" />
     <path
         d="M196 94.5a1.5 1.5 0 011.5-1.5h48a1.5 1.5 0 010 3h-48a1.5 1.5 0 01-1.5-1.5zM196 101.5a1.5 1.5 0 011.5-1.5h38a1.5 1.5 0 010 3h-38a1.5 1.5 0 01-1.5-1.5z"
         fill="#a0aec0" />
-    <path d="M196 108.5a1.5 1.5 0 011.5-1.5h13a1.5 1.5 0 010 3h-13a1.5 1.5 0 01-1.5-1.5z" fill="#7f9cf5" />
+    <path d="M196 108.5a1.5 1.5 0 011.5-1.5h13a1.5 1.5 0 010 3h-13a1.5 1.5 0 01-1.5-1.5z" fill="#3b82f6" />
     <rect x=196 y=84 width=43 height=4 rx=2 fill="#4a5568" />
 </svg>`,
     content: `<section class="text-gray-600 body-font">
@@ -633,7 +633,7 @@ const blocks = [
       </h1>
       <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
         <div class="p-4 md:w-1/3 flex">
-          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
+          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-4 flex-shrink-0">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
@@ -641,7 +641,7 @@ const blocks = [
           <div class="flex-grow pl-6">
             <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Shooting Stars</h2>
             <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.</p>
-            <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+            <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
@@ -649,7 +649,7 @@ const blocks = [
           </div>
         </div>
         <div class="p-4 md:w-1/3 flex">
-          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
+          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-4 flex-shrink-0">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
               <circle cx="6" cy="6" r="3"></circle>
               <circle cx="6" cy="18" r="3"></circle>
@@ -659,7 +659,7 @@ const blocks = [
           <div class="flex-grow pl-6">
             <h2 class="text-gray-900 text-lg title-font font-medium mb-2">The Catalyzer</h2>
             <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.</p>
-            <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+            <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
@@ -667,7 +667,7 @@ const blocks = [
           </div>
         </div>
         <div class="p-4 md:w-1/3 flex">
-          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
+          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-4 flex-shrink-0">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
               <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
               <circle cx="12" cy="7" r="4"></circle>
@@ -676,7 +676,7 @@ const blocks = [
           <div class="flex-grow pl-6">
             <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Neptune</h2>
             <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.</p>
-            <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+            <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
@@ -694,15 +694,15 @@ const blocks = [
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
     <circle cx=140 cy=26 r=6 fill="#c3dafe" />
     <path d="M134 44a1 1 0 011-1h77a1 1 0 010 2h-77a1 1 0 01-1-1z" fill="#a0aec0" />
-    <path d="M134 49a1 1 0 011-1h21a1 1 0 010 2h-21a1 1 0 01-1-1z" fill="#7f9cf5" />
+    <path d="M134 49a1 1 0 011-1h21a1 1 0 010 2h-21a1 1 0 01-1-1z" fill="#3b82f6" />
     <rect x=134 y=37 width=58 height=3 rx=1.5 fill="#4a5568" />
     <circle cx=140 cy=66 r=6 fill="#c3dafe" />
     <path d="M134 84a1 1 0 011-1h77a1 1 0 010 2h-77a1 1 0 01-1-1z" fill="#a0aec0" />
-    <path d="M134 89a1 1 0 011-1h21a1 1 0 010 2h-21a1 1 0 01-1-1z" fill="#7f9cf5" />
+    <path d="M134 89a1 1 0 011-1h21a1 1 0 010 2h-21a1 1 0 01-1-1z" fill="#3b82f6" />
     <rect x=134 y=77 width=58 height=3 rx=1.5 fill="#4a5568" />
     <circle cx=140 cy=106 r=6 fill="#c3dafe" />
     <path d="M134 124a1 1 0 011-1h77a1 1 0 010 2h-77a1 1 0 01-1-1z" fill="#a0aec0" />
-    <path d="M134 129a1 1 0 011-1h21a1 1 0 010 2h-21a1 1 0 01-1-1z" fill="#7f9cf5" />
+    <path d="M134 129a1 1 0 011-1h21a1 1 0 010 2h-21a1 1 0 01-1-1z" fill="#3b82f6" />
     <rect x=134 y=117 width=58 height=3 rx=1.5 fill="#4a5568" />
     <path
         d="M63.792 92h26.544a3.785 3.785 0 003.792-3.778V61.778A3.785 3.785 0 0090.336 58H63.792A3.785 3.785 0 0060 61.778v26.444A3.785 3.785 0 0063.792 92zm0 0l20.856-20.778 9.48 9.445M73.272 68.389a2.839 2.839 0 01-2.844 2.833 2.839 2.839 0 01-2.844-2.833 2.839 2.839 0 012.844-2.833 2.839 2.839 0 012.844 2.833z"
@@ -715,7 +715,7 @@ const blocks = [
       </div>
       <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
         <div class="flex flex-col mb-10 lg:items-start items-center">
-          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
+          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-5">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
@@ -723,7 +723,7 @@ const blocks = [
           <div class="flex-grow">
             <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
             <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-            <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+            <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
@@ -731,7 +731,7 @@ const blocks = [
           </div>
         </div>
         <div class="flex flex-col mb-10 lg:items-start items-center">
-          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
+          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-5">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
               <circle cx="6" cy="6" r="3"></circle>
               <circle cx="6" cy="18" r="3"></circle>
@@ -741,7 +741,7 @@ const blocks = [
           <div class="flex-grow">
             <h2 class="text-gray-900 text-lg title-font font-medium mb-3">The Catalyzer</h2>
             <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-            <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+            <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
@@ -749,7 +749,7 @@ const blocks = [
           </div>
         </div>
         <div class="flex flex-col mb-10 lg:items-start items-center">
-          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
+          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-5">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
               <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
               <circle cx="12" cy="7" r="4"></circle>
@@ -758,7 +758,7 @@ const blocks = [
           <div class="flex-grow">
             <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Neptune</h2>
             <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-            <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+            <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
@@ -779,14 +779,14 @@ const blocks = [
     <path
         d="M44 72.5a1.5 1.5 0 011.5-1.5h68a1.5 1.5 0 010 3h-68a1.5 1.5 0 01-1.5-1.5zM44 79.5a1.5 1.5 0 011.5-1.5h54a1.5 1.5 0 010 3h-54a1.5 1.5 0 01-1.5-1.5z"
         fill="#a0aec0" />
-    <path d="M44 86.5a1.5 1.5 0 011.5-1.5h19a1.5 1.5 0 010 3h-19a1.5 1.5 0 01-1.5-1.5z" fill="#7f9cf5" />
+    <path d="M44 86.5a1.5 1.5 0 011.5-1.5h19a1.5 1.5 0 010 3h-19a1.5 1.5 0 01-1.5-1.5z" fill="#3b82f6" />
     <rect x=44 y=62 width=32 height=4 rx=2 fill="#4a5568" />
     <rect x=138.5 y=54.5 width=107 height=41 rx=1.5 fill="#F9F9F9" stroke="#cbd5e0" />
     <circle cx=150 cy=68 r=6 fill="#c3dafe" />
     <path
         d="M162 72.5a1.5 1.5 0 011.5-1.5h68a1.5 1.5 0 010 3h-68a1.5 1.5 0 01-1.5-1.5zM162 79.5a1.5 1.5 0 011.5-1.5h54a1.5 1.5 0 010 3h-54a1.5 1.5 0 01-1.5-1.5z"
         fill="#a0aec0" />
-    <path d="M162 86.5a1.5 1.5 0 011.5-1.5h19a1.5 1.5 0 010 3h-19a1.5 1.5 0 01-1.5-1.5z" fill="#7f9cf5" />
+    <path d="M162 86.5a1.5 1.5 0 011.5-1.5h19a1.5 1.5 0 010 3h-19a1.5 1.5 0 01-1.5-1.5z" fill="#3b82f6" />
     <rect x=162 y=62 width=32 height=4 rx=2 fill="#4a5568" />
 </svg>`,
     content: `<section class="text-gray-600 body-font">
@@ -794,7 +794,7 @@ const blocks = [
       <div class="flex flex-wrap -m-4">
         <div class="p-4 lg:w-1/2 md:w-full">
           <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
-            <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+            <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 flex-shrink-0">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
                 <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
               </svg>
@@ -802,7 +802,7 @@ const blocks = [
             <div class="flex-grow">
               <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
               <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+              <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
@@ -812,7 +812,7 @@ const blocks = [
         </div>
         <div class="p-4 lg:w-1/2 md:w-full">
           <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
-            <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+            <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 flex-shrink-0">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
                 <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
                 <circle cx="12" cy="7" r="4"></circle>
@@ -821,7 +821,7 @@ const blocks = [
             <div class="flex-grow">
               <h2 class="text-gray-900 text-lg title-font font-medium mb-3">The Catalyzer</h2>
               <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+              <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
@@ -839,38 +839,38 @@ const blocks = [
     label: `<svg viewBox="0 0 266 150" fill="none">
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
     <rect x=20 y=78 width=69 height=31 rx=2 fill="#e2e8f0" />
-    <rect x=113 y=41 width=40 height=3 rx=1.5 fill="#7f9cf5" />
-    <circle cx=28 cy=86 r=3 fill="#7f9cf5" />
+    <rect x=113 y=41 width=40 height=3 rx=1.5 fill="#3b82f6" />
+    <circle cx=28 cy=86 r=3 fill="#3b82f6" />
     <rect x=98 y=49 width=70 height=5 rx=2.5 fill="#4a5568" />
     <path d="M25 93a1 1 0 011-1h54a1 1 0 110 2H26a1 1 0 01-1-1zM25 98a1 1 0 011-1h44a1 1 0 110 2H26a1 1 0 01-1-1z"
         fill="#a0aec0" />
-    <path d="M25 103a1 1 0 011-1h11a1 1 0 010 2H26a1 1 0 01-1-1z" fill="#7f9cf5" />
+    <path d="M25 103a1 1 0 011-1h11a1 1 0 010 2H26a1 1 0 01-1-1z" fill="#3b82f6" />
     <rect x=34 y=84.5 width=35 height=3 rx=1.5 fill="#4a5568" />
     <rect x=99 y=78 width=69 height=31 rx=2 fill="#e2e8f0" />
-    <circle cx=107 cy=86 r=3 fill="#7f9cf5" />
+    <circle cx=107 cy=86 r=3 fill="#3b82f6" />
     <path d="M104 93a1 1 0 011-1h54a1 1 0 010 2h-54a1 1 0 01-1-1zM104 98a1 1 0 011-1h44a1 1 0 010 2h-44a1 1 0 01-1-1z"
         fill="#a0aec0" />
-    <path d="M104 103a1 1 0 011-1h11a1 1 0 010 2h-11a1 1 0 01-1-1z" fill="#7f9cf5" />
+    <path d="M104 103a1 1 0 011-1h11a1 1 0 010 2h-11a1 1 0 01-1-1z" fill="#3b82f6" />
     <rect x=113 y=84.5 width=35 height=3 rx=1.5 fill="#4a5568" />
     <rect x=178 y=78 width=69 height=31 rx=2 fill="#e2e8f0" />
-    <circle cx=186 cy=86 r=3 fill="#7f9cf5" />
+    <circle cx=186 cy=86 r=3 fill="#3b82f6" />
     <path d="M183 93a1 1 0 011-1h54a1 1 0 010 2h-54a1 1 0 01-1-1zM183 98a1 1 0 011-1h44a1 1 0 010 2h-44a1 1 0 01-1-1z"
         fill="#a0aec0" />
-    <path d="M183 103a1 1 0 011-1h11a1 1 0 010 2h-11a1 1 0 01-1-1z" fill="#7f9cf5" />
+    <path d="M183 103a1 1 0 011-1h11a1 1 0 010 2h-11a1 1 0 01-1-1z" fill="#3b82f6" />
     <rect x=192 y=84.5 width=35 height=3 rx=1.5 fill="#4a5568" />
 </svg>
 `,
     content: `<section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
-        <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2>
+        <h2 class="text-xs text-blue-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2>
         <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">Master Cleanse Reliac Heirloom</h1>
       </div>
       <div class="flex flex-wrap -m-4">
         <div class="p-4 md:w-1/3">
           <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
             <div class="flex items-center mb-3">
-              <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+              <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                   <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                 </svg>
@@ -879,7 +879,7 @@ const blocks = [
             </div>
             <div class="flex-grow">
               <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+              <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
@@ -890,7 +890,7 @@ const blocks = [
         <div class="p-4 md:w-1/3">
           <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
             <div class="flex items-center mb-3">
-              <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+              <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                   <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
                   <circle cx="12" cy="7" r="4"></circle>
@@ -900,7 +900,7 @@ const blocks = [
             </div>
             <div class="flex-grow">
               <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+              <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
@@ -911,7 +911,7 @@ const blocks = [
         <div class="p-4 md:w-1/3">
           <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
             <div class="flex items-center mb-3">
-              <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+              <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                   <circle cx="6" cy="6" r="3"></circle>
                   <circle cx="6" cy="18" r="3"></circle>
@@ -922,7 +922,7 @@ const blocks = [
             </div>
             <div class="flex-grow">
               <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+              <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
@@ -941,24 +941,24 @@ const blocks = [
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
     <circle cx=88 cy=28 r=8 fill="#c3dafe" />
     <path d="M102 28a1 1 0 011-1h68a1 1 0 010 2h-68a1 1 0 01-1-1z" fill="#a0aec0" />
-    <path d="M102 33a1 1 0 011-1h14a1 1 0 010 2h-14a1 1 0 01-1-1z" fill="#7f9cf5" />
+    <path d="M102 33a1 1 0 011-1h14a1 1 0 010 2h-14a1 1 0 01-1-1z" fill="#3b82f6" />
     <rect x=102 y=21 width=40 height=3 rx=1.5 fill="#4a5568" />
     <circle cx=88 cy=98 r=8 fill="#c3dafe" />
     <path d="M102 98a1 1 0 011-1h68a1 1 0 010 2h-68a1 1 0 01-1-1z" fill="#a0aec0" />
-    <path d="M102 103a1 1 0 011-1h14a1 1 0 010 2h-14a1 1 0 01-1-1z" fill="#7f9cf5" />
+    <path d="M102 103a1 1 0 011-1h14a1 1 0 010 2h-14a1 1 0 01-1-1z" fill="#3b82f6" />
     <rect x=102 y=91 width=40 height=3 rx=1.5 fill="#4a5568" />
     <circle cx=178 cy=63 r=8 fill="#c3dafe" />
     <path d="M80 63a1 1 0 011-1h68a1 1 0 010 2H81a1 1 0 01-1-1z" fill="#a0aec0" />
-    <path d="M80 68a1 1 0 011-1h14a1 1 0 110 2H81a1 1 0 01-1-1z" fill="#7f9cf5" />
+    <path d="M80 68a1 1 0 011-1h14a1 1 0 110 2H81a1 1 0 01-1-1z" fill="#3b82f6" />
     <rect x=80 y=56 width=40 height=3 rx=1.5 fill="#4a5568" />
-    <rect x=113 y=120 width=40 height=10 rx=2 fill="#7f9cf5" />
+    <rect x=113 y=120 width=40 height=10 rx=2 fill="#3b82f6" />
     <path d="M185.5 45a.5.5 0 010 1h-105a.5.5 0 010-1h105zM185.5 80a.5.5 0 010 1h-105a.5.5 0 010-1h105z"
         fill="#cbd5e0" />
 </svg>`,
     content: `<section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-        <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+        <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 flex-shrink-0">
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
             <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
           </svg>
@@ -966,7 +966,7 @@ const blocks = [
         <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
           <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Shooting Stars</h2>
           <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-          <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+          <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
@@ -977,13 +977,13 @@ const blocks = [
         <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
           <h2 class="text-gray-900 text-lg title-font font-medium mb-2">The Catalyzer</h2>
           <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-          <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+          <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </a>
         </div>
-        <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+        <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 flex-shrink-0">
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
             <circle cx="6" cy="6" r="3"></circle>
             <circle cx="6" cy="18" r="3"></circle>
@@ -992,7 +992,7 @@ const blocks = [
         </div>
       </div>
       <div class="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
-        <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+        <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 flex-shrink-0">
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
             <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
             <circle cx="12" cy="7" r="4"></circle>
@@ -1001,14 +1001,14 @@ const blocks = [
         <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
           <h2 class="text-gray-900 text-lg title-font font-medium mb-2">The 400 Blows</h2>
           <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-          <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+          <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </a>
         </div>
       </div>
-      <button class="flex mx-auto mt-20 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+      <button class="flex mx-auto mt-20 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
     </div>
   </section>`
   },
@@ -1019,27 +1019,27 @@ const blocks = [
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
     <path d="M70 61a1 1 0 011-1h58a1 1 0 011 1v8a1 1 0 01-1 1H71a1 1 0 01-1-1v-8z" fill="#e2e8f0" />
     <path d="M80 65a1 1 0 011-1h40a1 1 0 010 2H81a1 1 0 01-1-1z" fill="#4a5568" />
-    <path d="M77 65a2 2 0 11-4 0 2 2 0 014 0z" fill="#7f9cf5" />
+    <path d="M77 65a2 2 0 11-4 0 2 2 0 014 0z" fill="#3b82f6" />
     <path d="M136 61a1 1 0 011-1h58a1 1 0 011 1v8a1 1 0 01-1 1h-58a1 1 0 01-1-1v-8z" fill="#e2e8f0" />
     <path d="M146 65a1 1 0 011-1h40a1 1 0 010 2h-40a1 1 0 01-1-1z" fill="#4a5568" />
-    <path d="M143 65a2 2 0 11-4 0 2 2 0 014 0z" fill="#7f9cf5" />
+    <path d="M143 65a2 2 0 11-4 0 2 2 0 014 0z" fill="#3b82f6" />
     <path d="M70 77a1 1 0 011-1h58a1 1 0 011 1v8a1 1 0 01-1 1H71a1 1 0 01-1-1v-8z" fill="#e2e8f0" />
     <path d="M80 81a1 1 0 011-1h40a1 1 0 010 2H81a1 1 0 01-1-1z" fill="#4a5568" />
-    <path d="M77 81a2 2 0 11-4 0 2 2 0 014 0z" fill="#7f9cf5" />
+    <path d="M77 81a2 2 0 11-4 0 2 2 0 014 0z" fill="#3b82f6" />
     <path d="M136 77a1 1 0 011-1h58a1 1 0 011 1v8a1 1 0 01-1 1h-58a1 1 0 01-1-1v-8z" fill="#e2e8f0" />
     <path d="M146 81a1 1 0 011-1h40a1 1 0 010 2h-40a1 1 0 01-1-1z" fill="#4a5568" />
-    <path d="M143 81a2 2 0 11-4 0 2 2 0 014 0z" fill="#7f9cf5" />
+    <path d="M143 81a2 2 0 11-4 0 2 2 0 014 0z" fill="#3b82f6" />
     <path d="M70 93a1 1 0 011-1h58a1 1 0 011 1v8a1 1 0 01-1 1H71a1 1 0 01-1-1v-8z" fill="#e2e8f0" />
     <path d="M80 97a1 1 0 011-1h40a1 1 0 010 2H81a1 1 0 01-1-1z" fill="#4a5568" />
-    <path d="M77 97a2 2 0 11-4 0 2 2 0 014 0z" fill="#7f9cf5" />
+    <path d="M77 97a2 2 0 11-4 0 2 2 0 014 0z" fill="#3b82f6" />
     <path d="M136 93a1 1 0 011-1h58a1 1 0 011 1v8a1 1 0 01-1 1h-58a1 1 0 01-1-1v-8z" fill="#e2e8f0" />
     <path d="M146 97a1 1 0 011-1h40a1 1 0 010 2h-40a1 1 0 01-1-1z" fill="#4a5568" />
-    <path d="M143 97a2 2 0 11-4 0 2 2 0 014 0z" fill="#7f9cf5" />
+    <path d="M143 97a2 2 0 11-4 0 2 2 0 014 0z" fill="#3b82f6" />
     <rect x=81 y=31 width=104.391 height=4 rx=2 fill="#a0aec0" />
     <rect x=81 y=31 width=104.391 height=4 rx=2 fill="#a0aec0" />
     <rect x=96 y=20 width=74 height=5 rx=2.5 fill="#4a5568" />
     <rect x=97 y=39 width=73 height=4 rx=2 fill="#a0aec0" />
-    <rect x=113 y=120 width=40 height=10 rx=2 fill="#7f9cf5" />
+    <rect x=113 y=120 width=40 height=10 rx=2 fill="#3b82f6" />
 </svg>`,
     content: `<section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
@@ -1050,7 +1050,7 @@ const blocks = [
       <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
         <div class="p-2 sm:w-1/2 w-full">
           <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg>
@@ -1059,7 +1059,7 @@ const blocks = [
         </div>
         <div class="p-2 sm:w-1/2 w-full">
           <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg>
@@ -1068,7 +1068,7 @@ const blocks = [
         </div>
         <div class="p-2 sm:w-1/2 w-full">
           <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg>
@@ -1077,7 +1077,7 @@ const blocks = [
         </div>
         <div class="p-2 sm:w-1/2 w-full">
           <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg>
@@ -1086,7 +1086,7 @@ const blocks = [
         </div>
         <div class="p-2 sm:w-1/2 w-full">
           <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg>
@@ -1095,7 +1095,7 @@ const blocks = [
         </div>
         <div class="p-2 sm:w-1/2 w-full">
           <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg>
@@ -1103,7 +1103,7 @@ const blocks = [
           </div>
         </div>
       </div>
-      <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+      <button class="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
     </div>
   </section>`
   },
@@ -1178,13 +1178,13 @@ const blocks = [
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
     <path fill="#e2e8f0" d="M71 84h62v38H71zM71 27h127v54H71zM136 84h62v38h-62z" />
     <path d="M93 54.5a1.5 1.5 0 011.5-1.5h77a1.5 1.5 0 010 3h-77a1.5 1.5 0 01-1.5-1.5z" fill="#a0aec0" />
-    <path d="M123 61.5a1.5 1.5 0 011.5-1.5h17a1.5 1.5 0 010 3h-17a1.5 1.5 0 01-1.5-1.5z" fill="#7f9cf5" />
+    <path d="M123 61.5a1.5 1.5 0 011.5-1.5h17a1.5 1.5 0 010 3h-17a1.5 1.5 0 01-1.5-1.5z" fill="#3b82f6" />
     <rect x=108 y=45 width=50 height=4 rx=2 fill="#4a5568" />
     <path d="M81 103.5a1.5 1.5 0 011.5-1.5h39a1.5 1.5 0 010 3h-39a1.5 1.5 0 01-1.5-1.5z" fill="#a0aec0" />
-    <path d="M97 110.5a1.5 1.5 0 011.5-1.5h7a1.5 1.5 0 010 3h-7a1.5 1.5 0 01-1.5-1.5z" fill="#7f9cf5" />
+    <path d="M97 110.5a1.5 1.5 0 011.5-1.5h7a1.5 1.5 0 010 3h-7a1.5 1.5 0 01-1.5-1.5z" fill="#3b82f6" />
     <rect x=89 y=94 width=26 height=4 rx=2 fill="#4a5568" />
     <path d="M146 103.5a1.5 1.5 0 011.5-1.5h39a1.5 1.5 0 010 3h-39a1.5 1.5 0 01-1.5-1.5z" fill="#a0aec0" />
-    <path d="M162 110.5a1.5 1.5 0 011.5-1.5h7a1.5 1.5 0 010 3h-7a1.5 1.5 0 01-1.5-1.5z" fill="#7f9cf5" />
+    <path d="M162 110.5a1.5 1.5 0 011.5-1.5h7a1.5 1.5 0 010 3h-7a1.5 1.5 0 01-1.5-1.5z" fill="#3b82f6" />
     <rect x=154 y=94 width=26 height=4 rx=2 fill="#4a5568" />
 </svg>`,
     content: `<section class="text-gray-600 body-font">
@@ -1195,7 +1195,7 @@ const blocks = [
           <div class="text-center relative z-10 w-full">
             <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
             <p class="leading-relaxed">Skateboard +1 mustache fixie paleo lumbersexual.</p>
-            <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+            <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
@@ -1209,7 +1209,7 @@ const blocks = [
               <div class="text-center relative z-10 w-full">
                 <h2 class="text-xl text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
                 <p class="leading-relaxed">Skateboard +1 mustache fixie paleo lumbersexual.</p>
-                <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
@@ -1223,7 +1223,7 @@ const blocks = [
               <div class="text-center relative z-10 w-full">
                 <h2 class="text-xl text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
                 <p class="leading-relaxed">Skateboard +1 mustache fixie paleo lumbersexual.</p>
-                <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
@@ -1260,7 +1260,7 @@ const blocks = [
     <rect x=24 y=73 width=10 height=2 rx=1 fill="#4a5568" />
     <path d="M24 116.5a2 2 0 012-2h38a2 2 0 012 2v4a2 2 0 01-2 2H26a2 2 0 01-2-2v-4z" fill="#a0aec0" />
     <path d="M124.5 83a.5.5 0 010 1h-41a.5.5 0 010-1h41z" fill="#e2e8f0" />
-    <rect x=79.5 y=69.5 width=49 height=58 rx=1.5 stroke="#7f9cf5" />
+    <rect x=79.5 y=69.5 width=49 height=58 rx=1.5 stroke="#3b82f6" />
     <circle cx=85 cy=89 r=2 fill="#a0aec0" />
     <rect x=83 y=77 width=18 height=2 rx=1 fill="#4a5568" />
     <rect x=89 y=88 width=34 height=2 rx=1 fill="#a0aec0" />
@@ -1284,7 +1284,7 @@ const blocks = [
     <rect x=148 y=106 width=34 height=2 rx=1 fill="#a0aec0" />
     <rect x=142 y=73 width=10 height=2 rx=1 fill="#4a5568" />
     <path d="M142 116.5a2 2 0 012-2h38a2 2 0 012 2v4a2 2 0 01-2 2h-38a2 2 0 01-2-2v-4z" fill="#a0aec0" />
-    <path d="M83 116.5a2 2 0 012-2h38a2 2 0 012 2v4a2 2 0 01-2 2H85a2 2 0 01-2-2v-4z" fill="#7f9cf5" />
+    <path d="M83 116.5a2 2 0 012-2h38a2 2 0 012 2v4a2 2 0 01-2 2H85a2 2 0 01-2-2v-4z" fill="#3b82f6" />
     <path d="M242.5 83a.5.5 0 010 1h-41a.5.5 0 010-1h41z" fill="#e2e8f0" />
     <rect x=197.5 y=69.5 width=49 height=58 rx=1.5 stroke="#cbd5e0" />
     <circle cx=203 cy=89 r=2 fill="#a0aec0" />
@@ -1299,16 +1299,16 @@ const blocks = [
     <rect x=201 y=73 width=10 height=2 rx=1 fill="#4a5568" />
     <path d="M201 116.5a2 2 0 012-2h38a2 2 0 012 2v4a2 2 0 01-2 2h-38a2 2 0 01-2-2v-4z" fill="#a0aec0" />
     <path d="M118 43.5h30a1.5 1.5 0 011.5 1.5v4a1.5 1.5 0 01-1.5 1.5h-30a1.5 1.5 0 01-1.5-1.5v-4a1.5 1.5 0 011.5-1.5z"
-        stroke="#7f9cf5" />
-    <path fill="#7f9cf5" d="M117 43h16v7h-16z" />
+        stroke="#3b82f6" />
+    <path fill="#3b82f6" d="M117 43h16v7h-16z" />
 </svg>`,
     content: `<section class="text-gray-600 body-font overflow-hidden">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
         <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Pricing</h1>
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.</p>
-        <div class="flex mx-auto border-2 border-indigo-500 rounded overflow-hidden mt-6">
-          <button class="py-1 px-4 bg-indigo-500 text-white focus:outline-none">Monthly</button>
+        <div class="flex mx-auto border-2 border-blue-500 rounded overflow-hidden mt-6">
+          <button class="py-1 px-4 bg-blue-500 text-white focus:outline-none">Monthly</button>
           <button class="py-1 px-4 focus:outline-none">Annually</button>
         </div>
       </div>
@@ -1347,8 +1347,8 @@ const blocks = [
           </div>
         </div>
         <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-          <div class="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
-            <span class="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
+          <div class="h-full p-6 rounded-lg border-2 border-blue-500 flex flex-col relative overflow-hidden">
+            <span class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
             <h2 class="text-sm tracking-widest title-font mb-1 font-medium">PRO</h2>
             <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
               <span>$38</span>
@@ -1382,7 +1382,7 @@ const blocks = [
                 </svg>
               </span>Mixtape chillwave tumeric
             </p>
-            <button class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Button
+            <button class="flex items-center mt-auto text-white bg-blue-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-600 rounded">Button
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
@@ -1504,7 +1504,7 @@ const blocks = [
     <rect x=106 y=37 width=55 height=4 rx=2 fill="#a0aec0" />
     <rect x=50 y=57 width=167 height=11 rx=1 fill="#e2e8f0" />
     <rect x=55 y=61 width=39 height=3 rx=1.5 fill="#4a5568" />
-    <rect x=55 y=121 width=19 height=3 rx=1.5 fill="#7f9cf5" />
+    <rect x=55 y=121 width=19 height=3 rx=1.5 fill="#3b82f6" />
     <rect x=108 y=61 width=24 height=3 rx=1.5 fill="#4a5568" />
     <rect x=145 y=61 width=30 height=3 rx=1.5 fill="#4a5568" />
     <rect x=188 y=61 width=20 height=3 rx=1.5 fill="#4a5568" />
@@ -1521,7 +1521,7 @@ const blocks = [
     <rect x=55 y=104 width=33 height=2 rx=1 fill="#a0aec0" />
     <rect x=108 y=104 width=14 height=2 rx=1 fill="#a0aec0" />
     <path d="M216.5 112a.5.5 0 010 1h-166a.5.5 0 010-1h166z" fill="#e2e8f0" />
-    <rect x=182 y=119 width=31 height=10 rx=2 fill="#7f9cf5" />
+    <rect x=182 y=119 width=31 height=10 rx=2 fill="#3b82f6" />
     <rect x=145 y=104 width=18 height=2 rx=1 fill="#a0aec0" />
     <rect x=188 y=104 width=20 height=2 rx=1 fill="#a0aec0" />
 </svg>`,
@@ -1583,12 +1583,12 @@ const blocks = [
         </table>
       </div>
       <div class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto">
-        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+        <a class="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
         </a>
-        <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
+        <button class="flex ml-auto text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded">Button</button>
       </div>
     </div>
   </section>`
@@ -1602,19 +1602,19 @@ const blocks = [
     label: `<svg viewBox="0 0 266 150" fill="none">
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
     <path d="M24 28.5a.5.5 0 011 0v93a.5.5 0 01-1 0v-93z" fill="#cbd5e0" />
-    <path d="M26 40.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" fill="#7f9cf5" />
+    <path d="M26 40.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" fill="#3b82f6" />
     <path d="M47 43a1 1 0 011-1h54a1 1 0 010 2H48a1 1 0 01-1-1z" fill="#a0aec0" />
     <rect x=47 y=36 width=35 height=3 rx=1.5 fill="#4a5568" />
     <circle cx=36.5 cy=40.5 r=6.5 fill="#c3dafe" />
-    <path d="M26 63.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" fill="#7f9cf5" />
+    <path d="M26 63.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" fill="#3b82f6" />
     <path d="M47 66a1 1 0 011-1h54a1 1 0 010 2H48a1 1 0 01-1-1z" fill="#a0aec0" />
     <rect x=47 y=59 width=35 height=3 rx=1.5 fill="#4a5568" />
     <circle cx=36.5 cy=63.5 r=6.5 fill="#c3dafe" />
-    <path d="M26 86.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" fill="#7f9cf5" />
+    <path d="M26 86.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" fill="#3b82f6" />
     <path d="M47 89a1 1 0 011-1h54a1 1 0 010 2H48a1 1 0 01-1-1z" fill="#a0aec0" />
     <rect x=47 y=82 width=35 height=3 rx=1.5 fill="#4a5568" />
     <circle cx=36.5 cy=86.5 r=6.5 fill="#c3dafe" />
-    <path d="M26 109.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" fill="#7f9cf5" />
+    <path d="M26 109.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" fill="#3b82f6" />
     <path d="M47 112a1 1 0 011-1h54a1 1 0 010 2H48a1 1 0 01-1-1z" fill="#a0aec0" />
     <rect x=47 y=105 width=35 height=3 rx=1.5 fill="#4a5568" />
     <circle cx=36.5 cy=109.5 r=6.5 fill="#c3dafe" />
@@ -1628,9 +1628,9 @@ const blocks = [
         <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
           <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
         </div>
-        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">1</div>
+        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-sm">1</div>
         <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-          <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+          <div class="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
             </svg>
@@ -1645,9 +1645,9 @@ const blocks = [
         <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
           <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
         </div>
-        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">2</div>
+        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-sm">2</div>
         <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-          <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+          <div class="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
@@ -1662,9 +1662,9 @@ const blocks = [
         <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
           <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
         </div>
-        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">3</div>
+        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-sm">3</div>
         <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-          <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+          <div class="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
               <circle cx="12" cy="5" r="3"></circle>
               <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
@@ -1680,9 +1680,9 @@ const blocks = [
         <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
           <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
         </div>
-        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">4</div>
+        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-sm">4</div>
         <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-          <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+          <div class="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
               <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
               <circle cx="12" cy="7" r="4"></circle>
@@ -1884,13 +1884,13 @@ const blocks = [
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
     <rect x=20 y=68 width=119 height=5 rx=2.5 fill="#4a5568" />
     <rect x=20 y=77 width=92 height=5 rx=2.5 fill="#4a5568" />
-    <rect x=206 y=70 width=40 height=10 rx=2 fill="#7f9cf5" />
+    <rect x=206 y=70 width=40 height=10 rx=2 fill="#3b82f6" />
 </svg>`,
     content: `<section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
         <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">Slow-carb next level shoindxgoitch ethical authentic, scenester sriracha forage.</h1>
-        <button class="flex-shrink-0 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0">Button</button>
+        <button class="flex-shrink-0 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg mt-10 sm:mt-0">Button</button>
       </div>
     </div>
   </section>`
@@ -1900,7 +1900,7 @@ const blocks = [
     category: 'CTA',
     label: `<svg fill="none" viewBox="0 0 266 150">
     <path fill="#F9F9F9" d="M0 0h266v150H0z"></path>
-    <rect x="20" y="68" width="26" height="5" rx="2.5" fill="#7f9cf5"></rect>
+    <rect x="20" y="68" width="26" height="5" rx="2.5" fill="#3b82f6"></rect>
     <rect x="20" y="77" width="92" height="5" rx="2.5" fill="#4a5568"></rect>
     <rect x="206" y="70" width="40" height="10" rx="2" fill="#cbd5e0"></rect>
     <rect x="160" y="70" width="40" height="10" rx="2" fill="#cbd5e0"></rect>
@@ -1908,7 +1908,7 @@ const blocks = [
     content: `<section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto flex items-center md:flex-row flex-col">
       <div class="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
-        <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2>
+        <h2 class="text-xs text-blue-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2>
         <h1 class="md:text-3xl text-2xl font-medium title-font text-gray-900">Master Cleanse Reliac Heirloom</h1>
       </div>
       <div class="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
@@ -2012,21 +2012,21 @@ const blocks = [
         fill="#a0aec0" />
     <path d="M38 104a2 2 0 012-2h25a2 2 0 110 4H40a2 2 0 01-2-2z" fill="#4a5568" />
     <path d="M26 69a2 2 0 012-2h48.92a2 2 0 110 4H28a2 2 0 01-2-2z" fill="#a0aec0" />
-    <path d="M44 94.5a1.5 1.5 0 011.5-1.5h13.38a1.5 1.5 0 010 3H45.5a1.5 1.5 0 01-1.5-1.5z" fill="#7f9cf5" />
+    <path d="M44 94.5a1.5 1.5 0 011.5-1.5h13.38a1.5 1.5 0 010 3H45.5a1.5 1.5 0 01-1.5-1.5z" fill="#3b82f6" />
     <circle cx=53 cy=53 r=8 fill="#e2e8f0" />
     <path
         d="M102 77a2 2 0 012-2h59a2 2 0 110 4h-59a2 2 0 01-2-2zM107 85a2 2 0 012-2h48.92a2 2 0 110 4H109a2 2 0 01-2-2z"
         fill="#a0aec0" />
     <path d="M119 104a2 2 0 012-2h25a2 2 0 110 4h-25a2 2 0 01-2-2z" fill="#4a5568" />
     <path d="M107 69a2 2 0 012-2h48.92a2 2 0 110 4H109a2 2 0 01-2-2z" fill="#a0aec0" />
-    <path d="M125 94.5a1.5 1.5 0 011.5-1.5h13.38a1.5 1.5 0 010 3H126.5a1.5 1.5 0 01-1.5-1.5z" fill="#7f9cf5" />
+    <path d="M125 94.5a1.5 1.5 0 011.5-1.5h13.38a1.5 1.5 0 010 3H126.5a1.5 1.5 0 01-1.5-1.5z" fill="#3b82f6" />
     <circle cx=134 cy=53 r=8 fill="#e2e8f0" />
     <path
         d="M183 77a2 2 0 012-2h59a2 2 0 110 4h-59a2 2 0 01-2-2zM188 85a2 2 0 012-2h48.92a2 2 0 110 4H190a2 2 0 01-2-2z"
         fill="#a0aec0" />
     <path d="M200 104a2 2 0 012-2h25a2 2 0 110 4h-25a2 2 0 01-2-2z" fill="#4a5568" />
     <path d="M188 69a2 2 0 012-2h48.92a2 2 0 110 4H190a2 2 0 01-2-2z" fill="#a0aec0" />
-    <path d="M206 94.5a1.5 1.5 0 011.5-1.5h13.38a1.5 1.5 0 010 3H207.5a1.5 1.5 0 01-1.5-1.5z" fill="#7f9cf5" />
+    <path d="M206 94.5a1.5 1.5 0 011.5-1.5h13.38a1.5 1.5 0 010 3H207.5a1.5 1.5 0 01-1.5-1.5z" fill="#3b82f6" />
     <circle cx=215 cy=53 r=8 fill="#e2e8f0" />
 </svg>`,
     content: `<section class="text-gray-600 body-font">
@@ -2036,7 +2036,7 @@ const blocks = [
           <div class="h-full text-center">
             <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/302x302">
             <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
-            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+            <span class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
             <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
             <p class="text-gray-500">Senior Product Designer</p>
           </div>
@@ -2045,7 +2045,7 @@ const blocks = [
           <div class="h-full text-center">
             <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/300x300">
             <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
-            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+            <span class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
             <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">ALPER KAMU</h2>
             <p class="text-gray-500">UI Develeoper</p>
           </div>
@@ -2054,7 +2054,7 @@ const blocks = [
           <div class="h-full text-center">
             <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/305x305">
             <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
-            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+            <span class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
             <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HENRY LETHAM</h2>
             <p class="text-gray-500">CTO</p>
           </div>
@@ -2071,7 +2071,7 @@ const blocks = [
     category: 'Contact',
     label: `<svg fill="none" viewBox="0 0 266 150">
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
-    <rect x=113 y=117 width=40 height=10 rx=2 fill="#7f9cf5" />
+    <rect x=113 y=117 width=40 height=10 rx=2 fill="#3b82f6" />
     <rect x=63 y=81 width=140 height=30 rx=2 fill="#cbd5e0" />
     <rect x=63 y=65 width=66 height=10 rx=2 fill="#cbd5e0" />
     <rect x=135 y=65 width=68 height=10 rx=2 fill="#cbd5e0" />
@@ -2090,26 +2090,26 @@ const blocks = [
           <div class="p-2 w-1/2">
             <div class="relative">
               <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
-              <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
             </div>
           </div>
           <div class="p-2 w-1/2">
             <div class="relative">
               <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
-              <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
             </div>
           </div>
           <div class="p-2 w-full">
             <div class="relative">
               <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
-              <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+              <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
             </div>
           </div>
           <div class="p-2 w-full">
-            <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+            <button class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
           </div>
           <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-            <a class="text-indigo-500">example@email.com</a>
+            <a class="text-blue-500">example@email.com</a>
             <p class="leading-normal my-5">49 Smith St.
               <br>Saint Cloud, MN 56301
             </p>
@@ -2173,13 +2173,13 @@ const blocks = [
     <path fill="#e2e8f0" d="M0 131h266v19H0z" />
     <rect x=20 y=139 width=41 height=3 rx=1.5 fill="#a0aec0" />
     <rect x=222 y=139 width=25 height=3 rx=1.5 fill="#a0aec0" />
-    <circle cx=29 cy=94 r=9 fill="#7f9cf5" />
+    <circle cx=29 cy=94 r=9 fill="#3b82f6" />
 </svg>`,
     content: `<footer class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
       <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
         <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg>
           <span class="ml-3 text-xl">Weblox</span>
@@ -2296,7 +2296,7 @@ const blocks = [
     label: `<svg fill="none" viewBox="0 0 266 150" ...props>
     <path fill="#F9F9F9" d="M0 0h266v150H0z" />
     <path stroke="#e2e8f0" d="M266 112.5H0" />
-    <circle cx=29 cy=131 r=9 fill="#7f9cf5" />
+    <circle cx=29 cy=131 r=9 fill="#3b82f6" />
     <rect x=213 y=129 width=31 height=4 rx=2 fill="#a0aec0" />
     <rect x=53 y=129 width=45 height=4 rx=2 fill="#a0aec0" />
     <path fill="#cbd5e0" d="M45 120h1v22h-1z" />
@@ -2304,7 +2304,7 @@ const blocks = [
     content: `<footer class="text-gray-600 body-font">
     <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
           <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
         </svg>
         <span class="ml-3 text-xl">Weblox</span>
@@ -2360,10 +2360,10 @@ const blocks = [
     <rect x=107.692 y=91 width=14.769 height=3 rx=1.5 fill="#a0aec0" />
     <rect x=107.692 y=98 width=25.846 height=3 rx=1.5 fill="#a0aec0" />
     <rect x=107.692 y=105 width=21.231 height=3 rx=1.5 fill="#a0aec0" />
-    <path d="M217 86a2 2 0 012-2h25a2 2 0 012 2v6a2 2 0 01-2 2h-25a2 2 0 01-2-2v-6z" fill="#7f9cf5" />
+    <path d="M217 86a2 2 0 012-2h25a2 2 0 012 2v6a2 2 0 01-2 2h-25a2 2 0 01-2-2v-6z" fill="#3b82f6" />
     <rect x=163 y=84 width=50 height=10 rx=2 fill="#cbd5e0" />
     <path fill="#e2e8f0" d="M0 119h266v31H0z" />
-    <circle cx=28.5 cy=134.5 r=8.5 fill="#7f9cf5" />
+    <circle cx=28.5 cy=134.5 r=8.5 fill="#3b82f6" />
     <rect x=45 y=133 width=30 height=3 rx=1.5 fill="#a0aec0" />
     <rect x=198 y=133 width=48 height=3 rx=1.5 fill="#a0aec0" />
 </svg>`,
@@ -2426,9 +2426,9 @@ const blocks = [
           <div class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
             <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
               <label for="footer-field" class="leading-7 text-sm text-gray-600">Placeholder</label>
-              <input type="text" id="footer-field" name="footer-field" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              <input type="text" id="footer-field" name="footer-field" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-blue-200 focus:border-blue-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
             </div>
-            <button class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
+            <button class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded">Button</button>
           </div>
           <p class="text-gray-500 text-sm mt-2 md:text-left text-center">Bitters chicharrones fanny pack
             <br class="lg:block hidden">waistcoat green juice
@@ -2439,7 +2439,7 @@ const blocks = [
     <div class="bg-gray-100">
       <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
         <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg>
           <span class="ml-3 text-xl">Weblox</span>
@@ -2673,16 +2673,15 @@ editor.Commands.add("export", {
   run: (editor) => editor.runCommand('gjs-export-zip')
 })
 
+//for guide
 editor.Commands.add("guide", {
   run: (editor) => {
-    // Run a custom command that performs the redirection
     editor.runCommand('go-to-guide');
   }
 });
 
 editor.Commands.add("go-to-guide", {
   run: (editor) => {
-    // Redirect the user to the "guide" route
-    window.location.href = '/guide';
+    window.open('/guide', '_blank');
   }
 });
