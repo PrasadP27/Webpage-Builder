@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "tailwind:css": "postcss public/styles/main.css -o public/styles/tailwind.css",
-    "tailwind:css-watch": "postcss public/styles/main.css -o public/styles/tailwind.css --watch"
+    "tailwind:css": "postcss public/styles/main.css -o public/styles/tailwind.css --watch"
   },
   "author": "",
   "license": "ISC",
