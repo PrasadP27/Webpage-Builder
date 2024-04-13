@@ -24,6 +24,23 @@
     transition: 0.6s all;
 }
 
+#element {
+    overflow-y: scroll;
+}
+
+#element::-webkit-scrollbar {
+    width: 2px;
+}
+
+#element::-webkit-scrollbar-track {
+    display: none;
+}
+
+#element::-webkit-scrollbar-thumb {
+    background-color: var(--second-color);
+    border-radius: 5px;
+}
+
 #element-navbar {
     z-index: 10;
     overflow: hidden;
@@ -166,7 +183,6 @@
 #layers-container .gjs-layer .gjs-one-bg {
     background-color: #cccccc;
     transition: 0.3s;
-    ;
 }
 
 #layers-container .gjs-layer.gjs-hovered .gjs-one-bg {
@@ -178,6 +194,38 @@
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px inset, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px inset;
 }
 
+#styles {
+    margin-top: 20px;
+}
+#styles-container .gjs-one-bg,
+#styles .gjs-one-bg {
+    background-color: #e3e3e343
+}
+#styles .gjs-sm-sector .gjs-sm-sector-title {
+    background-color: #cccccc;
+    font-weight: 600;
+}
+#styles-container .gjs-two-color,
+#styles-container .gjs-input-unit,
+#styles .gjs-two-color,
+#styles .gjs-input-unit{
+    color: #000;
+    font-weight: 600;
+    font-family: "Nunito Sans", sans-serif;
+}
+#styles-container .gjs-three-bg{
+    background-color: var(--third-color);
+}
+
+#styles .gjs-four-color{
+    color: var(--third-color);
+}
+
+#styles .gjs-field input,
+#styles .gjs-field select,
+#styles .gjs-field textarea{
+    background-color: #d9d9d91f;
+}
 /* .gjs-one-bg{
     background-color: #e3e3e343 !important;
 } */
