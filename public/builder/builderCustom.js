@@ -1,3 +1,16 @@
+//for loader
+const loader = document.querySelector('.loader')
+
+window.addEventListener('load', () => {
+  loader.style.opacity = '0',
+    document.body.style.cursor = 'wait'
+
+  setTimeout(() => {
+    loader.style.display = 'none',
+      document.body.style.cursor = 'auto'
+  }, 200)
+})
+
 // for Element-navbar 
 const tabButtons = document.querySelectorAll('#element-navbar button');
 
