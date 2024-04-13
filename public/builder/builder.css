@@ -226,19 +226,25 @@
 #styles .gjs-field textarea{
     background-color: #d9d9d91f;
 }
-/* .gjs-one-bg{
-    background-color: #e3e3e343 !important;
-} */
-/* .gjs-two-color {
-    color: #77abff;
-} */
 
-/* .gjs-three-bg {
-    background-color: #77abff;
-    color: #fcfcfc;
-} */
+#trait-container .gjs-one-bg{
+    background-color: #cccccc;
+}
+#trait-container .gjs-two-color{
+    color: #000;
+    font-weight: 600;
+}
+#trait-container .gjs-field input,
+#trait-container .gjs-field select,
+#trait-container .gjs-field textarea{
+    background-color: #F9F9F9;
+    border-radius: 3px;
+}
+#trait-container .gjs-traits-c{
+    padding: 10px 0px;
+}
 
-/* .gjs-four-color,
-.gjs-four-color-h:hover {
-    color: #77abff;
-} */
+.gjs-mdl-container .gjs-one-bg{
+    background-color: #5b5b5b;
+
+}
