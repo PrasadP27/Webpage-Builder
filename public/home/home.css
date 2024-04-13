@@ -1,26 +1,84 @@
-header img{
+header img {
     height: 25px;
 }
 
-section{
-    padding: 100px 80px;
-    height: 100%;
+section {
+    padding: 110px 80px;
+    /* height: 100%; */
     width: 100%;
 }
 
-#home {
-    padding:150px 50px 50px;
-    max-height: 1000px;
-    height: 100vh;
-    border: 2px solid #000;
+header.change{
+    padding: 2rem 2rem 1.75rem;
+    transition: 0.6s;
+    background-color: #00000099;
+    border-radius: 0 0 20px 20px;
 }
+
+header .try:hover {
+    background: transparent;
+    border: 2px solid #f9f9f9;
+    color: #f9f9f9;
+    transition: 0.2s;
+}
+
+#home {
+    padding: 160px 50px 50px;
+    background: linear-gradient(to bottom, #000, #0088ff, #45a8ff 60%, #d5efff);
+}
+
+.max {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 #home h1 {
+    color: #c9c9c9;
     font-size: 5.5rem;
     line-height: 7rem;
     letter-spacing: -3px;
     word-spacing: 15px;
 }
 
+#home span {
+    font-size: 6.1rem;
+}
+
 #home p {
     line-height: 2rem;
+}
+
+#home a:hover {
+    background: transparent;
+    border: 2px solid #f9f9f9;
+    color: #f9f9f9;
+    transition: 0.2s;
+}
+
+#home .home-video {
+    margin-top: 110px;
+}
+
+#home .builder-vid {
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 3px solid #d5efff;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 6px 12px -2px, rgba(255, 255, 255, 0.3) 0px 3px 7px -3px;
+}
+
+#about {
+    background-color: #d5efff;
+}
+#about .about-span {
+    font-weight: 800;
+    color: #45a8ff;
+}
+#about-info {
+    /* background-color: #d5efff; */
+}
+#about-info img{
+    border-radius: 20px;
+    border: 5px solid #c9c9c9;
+    height: 350px;
 }

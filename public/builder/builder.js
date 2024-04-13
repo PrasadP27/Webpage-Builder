@@ -2674,6 +2674,8 @@ const editor = grapesjs.init({
         },
         'height',
         'max-width',
+        'min-width',
+        'max-height',
         'min-height',
         'margin',
         'padding'

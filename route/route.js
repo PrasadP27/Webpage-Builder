@@ -11,14 +11,13 @@ const homeHeadTags = [`
 `]
 
 const homeBodyTags = [`
-    <script src="/builder/builderCustom.js"></script>
-    <script src="/builder/builder.js"></script>
+    <script src="/home/home.js"></script>
 `]
 router.get("/", (req, res) => {
     res.render("home", {
         title: null,
         headTags: homeHeadTags,
-        bodyTags: null
+        bodyTags: homeBodyTags
     })
 })
 
