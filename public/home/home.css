@@ -1,3 +1,20 @@
+/* for smooth scroll  */
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+    pointer-events: none;
+}
+
 header img {
     height: 25px;
 }
@@ -5,10 +22,11 @@ header img {
 section {
     padding: 110px 80px;
     /* height: 100%; */
-    min-width: 1500px;;
+    min-width: 1500px;
+    ;
 }
 
-header.change{
+header.change {
     padding: 2rem 2rem 1.75rem;
     transition: 0.6s;
     background-color: #00000099;
@@ -70,22 +88,23 @@ header .try:hover {
 #about {
     background-color: #d5efff;
 }
+
 #about .about-span {
     font-weight: 800;
     color: #45a8ff;
 }
 
-#about-info img{
+#about-info img {
     border-radius: 20px;
     border: 5px solid #c9c9c9;
     height: 350px;
 }
 
-#features{
+#features {
     background-color: #c9c9c9;
 }
 
-#features .feature-content{
+#features .feature-content {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -105,11 +124,11 @@ header .try:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-#features .feature img{
+#features .feature img {
     margin: 5px;
 }
 
-#features .feature h3{
+#features .feature h3 {
     font-size: 1.2rem;
     color: #535353;
     margin-left: 10px;
@@ -131,6 +150,6 @@ header .try:hover {
     align-items: center;
 }
 
-footer{
+footer {
     background-color: #555555;
 }

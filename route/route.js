@@ -11,7 +11,8 @@ const homeHeadTags = [`
 `]
 
 const homeBodyTags = [`
-    <script src="/home/home.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="/home/home.js" defer></script>
 `]
 router.get("/", (req, res) => {
     res.render("home", {
