@@ -48,4 +48,23 @@ router.get("/builder", (req, res) => {
     })
 })
 
+
+//guide page
+const guideHeadTags = [`
+    <link rel="stylesheet" href="/guide/guide.css">
+`]
+
+const guideBodyTags = [`
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="/guide/guide.js"></script>
+`]
+
+router.get("/guide", (req, res) => {
+    res.render("guide", {
+        title: ' | Guide',
+        headTags: guideHeadTags,
+        bodyTags: guideBodyTags
+    })
+})
+
 module.exports = router

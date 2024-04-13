@@ -1,0 +1,64 @@
+.max {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header{
+    z-index: 100;
+    border-radius: 0 0 20px 20px;
+    background-color: #00000099;
+}
+
+header .try:hover {
+    background: transparent;
+    border: 2px solid #f9f9f9;
+    color: #f9f9f9;
+    transition: 0.2s;
+}
+section {
+    padding: 30px 80px;
+    min-width: 1500px;
+}
+
+main{
+    background: linear-gradient(to bottom, #000, #0088ff, #45a8ff 60%, #d5efff);
+};
+
+
+.imp{
+    background-color: rgb(255, 190, 190);
+    border: 2px solid red;
+}
+
+.imp h2 {
+    color: red;
+    font-weight: 600;
+}
+
+.imp p{
+    color: rgb(255, 65, 65);
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.imp code {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+h4{
+    font-size: 1.3rem;
+    padding: 3px 0;
+    font-weight: 500;
+}
+
+p:not(footer p){
+    color: #000;
+    font-size: 1.15rem;
+    margin-bottom: 1.2rem;
+}
+
+footer{
+    background-color: #555555;
+}
