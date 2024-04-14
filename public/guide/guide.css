@@ -1,9 +1,23 @@
+/* for scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #818181;
+    border-radius: 20px;
+}
+
 .max {
     max-width: 1400px;
     margin: 0 auto;
 }
 
-header{
+header {
     z-index: 100;
     border-radius: 0 0 20px 20px;
     background-color: #00000099;
@@ -15,17 +29,20 @@ header .try:hover {
     color: #f9f9f9;
     transition: 0.2s;
 }
+
 section {
     padding: 30px 80px;
     min-width: 1500px;
 }
 
-main{
+main {
     background: linear-gradient(to bottom, #000, #0088ff, #45a8ff 60%, #d5efff);
-};
+}
+
+;
 
 
-.imp{
+.imp {
     background-color: rgb(255, 190, 190);
     border: 2px solid red;
 }
@@ -35,7 +52,7 @@ main{
     font-weight: 600;
 }
 
-.imp p{
+.imp p {
     color: rgb(255, 65, 65);
     margin-top: 5px;
     margin-bottom: 20px;
@@ -47,18 +64,18 @@ main{
     background-color: #f9f9f9;
 }
 
-h4{
+h4 {
     font-size: 1.3rem;
     padding: 3px 0;
     font-weight: 500;
 }
 
-p:not(footer p){
+p:not(footer p) {
     color: #000;
     font-size: 1.15rem;
     margin-bottom: 1.2rem;
 }
 
-footer{
+footer {
     background-color: #555555;
 }
