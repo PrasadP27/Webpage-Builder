@@ -89,3 +89,8 @@ xbtn.onclick = () => {
         button.classList.remove('active')
     });
 }
+
+window.addEventListener('beforeunload', ()=> {
+    event.preventDefault()
+    event.returnValue = ""
+})
