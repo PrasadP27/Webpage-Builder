@@ -1,8 +1,22 @@
 :root {
     --primary-color: #F9F9F9;
     --second-color: #AAAAAA;
-    --third-color: #75ccff;
+    --third-color: #45a8ff;
     --fourth-color: #d5efff;
+}
+
+/* for scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #818181;
+    border-radius: 20px;
 }
 
 #left-navbar {
