@@ -1,181 +1,197 @@
 <%- include ('loader') %>
 
-<header class="flex items-center justify-between p-7 fixed top-0 left-0 right-0 max">
-    <div class="flex items-center ">
-        <img src="/assets/icons/logo.svg" alt="logo" class="h-6">
-        <h1 class="font-nunito text-3xl font-medium ml-2 text-primary">Weblox</h1>
-    </div>
-
-    <div>
-        <ul class="links flex text-lg">
-            <li><a class="mr-7 font-nunito font-semibold text-md text-primary" href="/">Home</a></li>
-            <li><a class="mr-7 font-nunito font-semibold text-md text-primary" href="#properties" onclick="lenis.scrollTo('#properties')">Properties</a></li>
-            <li><a class="try p-3 rounded-md font-nunito font-semibold text-md bg-primary text-third border-primary border-2" href="/builder">Try for free</a></li>
-        </ul>
-    </div>
-</header>
-<main >
-    <section class="pt-32 max">
-        <h1 class="text-7xl leading-snug font-nunito py-4 text-primary">Beginner's Guide</h1>
-        <p class="text-xl text-second">Complete guide on how to use and what is Weblox</p>
-    </section>
-
-    <section class="max">
-        <p class="text-xl text-primary"> &emsp; &emsp;Weblox is a drag-and-drop webpage builder that allows users to create and export website code. It utilizes
-            the latest technology, Tailwind CSS, a utility-first CSS framework that provides classes that can be
-            composed to build any design, directly in your markup. With Weblox, users can create a website without
-            needing to write any code, making it accessible for those without a technical background. The generated code
-            can then be exported for use in other projects or for further customization</p>
-
-        <div class="imp my-8 p-5 rounded-md">
-            <h2 class="text-3xl mb-2 font-poppins">Note:</h2>
-            <p class="text-xl">When you Export the code you must add the following in head tag</p>
-            <code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"&gt;</code>
+    <header class="flex items-center justify-between p-7 fixed top-0 left-0 right-0 max">
+        <div class="flex items-center ">
+            <img src="/assets/icons/logo.svg" alt="logo" class="h-6">
+            <h1 class="font-nunito text-3xl font-medium ml-2 text-primary">Weblox</h1>
         </div>
 
-        <h3 class="text-5xl font-nunito py-5 text-primary">Introduction</h3>
+        <div>
+            <ul class="links flex text-lg">
+                <li><a class="mr-7 font-nunito font-semibold text-md text-primary" href="/">Home</a></li>
+                <li><a class="mr-7 font-nunito font-semibold text-md text-primary" href="#properties"
+                        onclick="lenis.scrollTo('#properties')">Properties</a></li>
+                <li><a class="try p-3 rounded-md font-nunito font-semibold text-md bg-primary text-third border-primary border-2"
+                        href="/builder">Try for free</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="pt-32 max">
+            <h1 class="text-7xl leading-snug font-nunito py-4 text-primary">Beginner's Guide</h1>
+            <p class="text-xl text-second">Complete guide on how to use and what is Weblox</p>
+        </section>
 
-        <h4>Blocks</h4>
-        <p> &emsp;This is the section where user can drag and drop the compnents to build a website</p>
+        <section class="max">
+            <p class="text-xl text-primary"> &emsp; &emsp;Weblox is a drag-and-drop webpage builder that allows users to
+                create and export website code. It utilizes
+                the latest technology, Tailwind CSS, a utility-first CSS framework that provides classes that can be
+                composed to build any design, directly in your markup. With Weblox, users can create a website without
+                needing to write any code, making it accessible for those without a technical background. The generated
+                code
+                can then be exported for use in other projects or for further customization</p>
 
-        <h4>Layers</h4>
-        <p> &emsp;Here user can see all the elements of the drag and droped component in layer format for better understanding
-        </p>
+            <div class="imp my-8 p-5 rounded-md">
+                <h2 class="text-3xl mb-2 font-poppins">Note:</h2>
+                <p class="text-xl">When you Export the code you must add the following in head tag</p>
+                <code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"&gt;</code>
+            </div>
 
-        <h4>Styles</h4>
-        <p> &emsp;This is the section in which the selected component styles can be changed</p>
+            <h3 class="text-5xl font-nunito py-5 text-primary">Introduction</h3>
 
-        <h4>Trait</h4>
-        <p> &emsp;A common use of traits is to customize element attributes (eg. placeholder for input tag) or you can also
-            bind them to the properties of your components and react to their changes</p>
-    </section>
+            <h4>Blocks</h4>
+            <p> &emsp;This is the section where user can drag and drop the compnents to build a website</p>
 
-    <section class="max" id="properties">
-        <h3 class="text-5xl font-nunito py-5 text-primary" >Properties Information</h3>
-
-        <div class="info">
-            <h4>Float</h4>
-            <p> &emsp;The float CSS property places an element on the left or right side of its container, allowing text and
-                inline elements to wrap around it.</p>
-            <h4>Display</h4>
-            <p> &emsp;The display CSS property sets whether an element is treated as a block or inline element and the layout
-                used for its children, such as flow layout, grid or flex.</p>
-            <h4>Position</h4>
-            <p> &emsp;The position CSS property sets how an element is positioned in a document. The top, right, bottom, and
-                left properties determine the final location of positioned elements.</p>
-            <h4>Left, Right, Top, Bottom</h4>
-            <p> &emsp;The left, right, top, and bottom properties are used to position elements in a container. They specify
-                the distance of the element from the respective side of the container.</p>
-            <h4>Width and Height</h4>
-            <p> &emsp;The width and height CSS properties set the width and height of an element's content box.</p>
-            <h4>Max-width and Min-width</h4>
-            <p> &emsp;The max-width and min-width CSS properties set the maximum and minimum width of an element's content box.
+            <h4>Layers</h4>
+            <p> &emsp;Here user can see all the elements of the drag and droped component in layer format for better
+                understanding
             </p>
-            <h4>Max-height and Min-height</h4>
-            <p> &emsp;The max-height and min-height CSS properties set the maximum and minimum height of an element's content
-                box.</p>
-            <h4>Margin</h4>
-            <p> &emsp;The margin CSS property sets the margin area on all four sides of an element. It is a shorthand for
-                setting margin-top, margin-right, margin-bottom, and margin-left.</p>
-            <h4>Padding</h4>
-            <p> &emsp;The padding CSS property sets the padding area on all four sides of an element. It is a shorthand for
-                setting padding-top, padding-right, padding-bottom, and padding-left.</p>
-            <h4>Font-family</h4>
-            <p> &emsp;The font-family CSS property specifies a prioritized list of one or more font family names and/or generic
-                family names for an element.</p>
-            <h4>Font-size</h4>
-            <p> &emsp;The font-size CSS property sets the size of the font.</p>
-            <h4>Font-weight</h4>
-            <p> &emsp;The font-weight CSS property sets the weight (or boldness) of the font.</p>
-            <h4>Letter-spacing</h4>
-            <p> &emsp;The letter-spacing CSS property sets the horizontal spacing between letters.</p>
-            <h4>Color</h4>
-            <p> &emsp;The color CSS property sets the foreground color value of an element's text and text decorations.</p>
-            <h4>Line-height</h4>
-            <p> &emsp;The line-height CSS property sets the height of a line box.</p>
-            <h4>Text-align</h4>
-            <p> &emsp;The text-align CSS property sets the horizontal alignment of a block element or table-cell box.</p>
-            <h4>Text-decoration</h4>
-            <p> &emsp;The text-decoration CSS property sets the appearance of decorative lines on text.</p>
-            <h4>Text-shadow</h4>
-            <p> &emsp;The text-shadow CSS property adds shadows to text.</p>
-            <h4>Opacity</h4>
-            <p> &emsp;The opacity CSS property sets the opacity level for an element.</p>
-            <h4>Border-radius</h4>
-            <p> &emsp;The border-radius CSS property rounds the corners of an element's outer border edge.</p>
-            <h4>Box-shadow</h4>
-            <p> &emsp;The box-shadow CSS property adds shadow effects around an element's frame.</p>
-            <h4>Background</h4>
-            <p> &emsp;The background CSS property is a shorthand property that sets all background properties in one
-                declaration.</p>
-            <h4>Transition</h4>
-            <p> &emsp;The transition CSS property is a shorthand property for setting the four transition properties into a
-                single declaration.</p>
-            <h4>Perspective</h4>
-            <p> &emsp;The perspective CSS property determines the distance between the z=0 plane and the user in order to give
-                a 3D-positioned element some perspective.</p>
-            <h4>Transform</h4>
-            <p> &emsp;The transform CSS property lets you rotate, scale, skew, or translate an element.</p>
 
-            <h4>ID</h4>
-            <p> &emsp;The id attribute is used to give an element a unique identifier within a document. It is used to target
-                an element with CSS or JavaScript.</p>
-            <h4>Title</h4>
-            <p> &emsp;The title attribute is used to provide additional information about an element. It is often used to
-                provide tooltips or other supplemental content.</p>
-            <h4>HREF</h4>
-            <p> &emsp;The href attribute is used in the <a> element to specify the link's destination. It is the most common
-                    way to create hyperlinks on the web.</p>
-            <h4>Target</h4>
-            <p> &emsp;The target attribute is used in the <a> element to specify where to open the linked document. It can have
-                    values such as \_self (open in the same frame), \_blank (open in a new tab), and \_parent (open in
-                    the parent frame).</p>
+            <h4>Styles</h4>
+            <p> &emsp;This is the section in which the selected component styles can be changed</p>
+
+            <h4>Trait</h4>
+            <p> &emsp;A common use of traits is to customize element attributes (eg. placeholder for input tag) or you
+                can also
+                bind them to the properties of your components and react to their changes</p>
+        </section>
+
+        <section class="max" id="properties">
+            <h3 class="text-5xl font-nunito py-5 text-primary">Properties Information</h3>
+
+            <div class="info">
+                <h4>Float</h4>
+                <p> &emsp;The float CSS property places an element on the left or right side of its container, allowing
+                    text and
+                    inline elements to wrap around it.</p>
+                <h4>Display</h4>
+                <p> &emsp;The display CSS property sets whether an element is treated as a block or inline element and
+                    the layout
+                    used for its children, such as flow layout, grid or flex.</p>
+                <h4>Position</h4>
+                <p> &emsp;The position CSS property sets how an element is positioned in a document. The top, right,
+                    bottom, and
+                    left properties determine the final location of positioned elements.</p>
+                <h4>Left, Right, Top, Bottom</h4>
+                <p> &emsp;The left, right, top, and bottom properties are used to position elements in a container. They
+                    specify
+                    the distance of the element from the respective side of the container.</p>
+                <h4>Width and Height</h4>
+                <p> &emsp;The width and height CSS properties set the width and height of an element's content box.</p>
+                <h4>Max-width and Min-width</h4>
+                <p> &emsp;The max-width and min-width CSS properties set the maximum and minimum width of an element's
+                    content box.
+                </p>
+                <h4>Max-height and Min-height</h4>
+                <p> &emsp;The max-height and min-height CSS properties set the maximum and minimum height of an
+                    element's content
+                    box.</p>
+                <h4>Margin</h4>
+                <p> &emsp;The margin CSS property sets the margin area on all four sides of an element. It is a
+                    shorthand for
+                    setting margin-top, margin-right, margin-bottom, and margin-left.</p>
+                <h4>Padding</h4>
+                <p> &emsp;The padding CSS property sets the padding area on all four sides of an element. It is a
+                    shorthand for
+                    setting padding-top, padding-right, padding-bottom, and padding-left.</p>
+                <h4>Font-family</h4>
+                <p> &emsp;The font-family CSS property specifies a prioritized list of one or more font family names
+                    and/or generic
+                    family names for an element.</p>
+                <h4>Font-size</h4>
+                <p> &emsp;The font-size CSS property sets the size of the font.</p>
+                <h4>Font-weight</h4>
+                <p> &emsp;The font-weight CSS property sets the weight (or boldness) of the font.</p>
+                <h4>Letter-spacing</h4>
+                <p> &emsp;The letter-spacing CSS property sets the horizontal spacing between letters.</p>
+                <h4>Color</h4>
+                <p> &emsp;The color CSS property sets the foreground color value of an element's text and text
+                    decorations.</p>
+                <h4>Line-height</h4>
+                <p> &emsp;The line-height CSS property sets the height of a line box.</p>
+                <h4>Text-align</h4>
+                <p> &emsp;The text-align CSS property sets the horizontal alignment of a block element or table-cell
+                    box.</p>
+                <h4>Text-decoration</h4>
+                <p> &emsp;The text-decoration CSS property sets the appearance of decorative lines on text.</p>
+                <h4>Text-shadow</h4>
+                <p> &emsp;The text-shadow CSS property adds shadows to text.</p>
+                <h4>Opacity</h4>
+                <p> &emsp;The opacity CSS property sets the opacity level for an element.</p>
+                <h4>Border-radius</h4>
+                <p> &emsp;The border-radius CSS property rounds the corners of an element's outer border edge.</p>
+                <h4>Box-shadow</h4>
+                <p> &emsp;The box-shadow CSS property adds shadow effects around an element's frame.</p>
+                <h4>Background</h4>
+                <p> &emsp;The background CSS property is a shorthand property that sets all background properties in one
+                    declaration.</p>
+                <h4>Transition</h4>
+                <p> &emsp;The transition CSS property is a shorthand property for setting the four transition properties
+                    into a
+                    single declaration.</p>
+                <h4>Perspective</h4>
+                <p> &emsp;The perspective CSS property determines the distance between the z=0 plane and the user in
+                    order to give
+                    a 3D-positioned element some perspective.</p>
+                <h4>Transform</h4>
+                <p> &emsp;The transform CSS property lets you rotate, scale, skew, or translate an element.</p>
+
+                <h4>ID</h4>
+                <p> &emsp;The id attribute is used to give an element a unique identifier within a document. It is used
+                    to target
+                    an element with CSS or JavaScript.</p>
+                <h4>Title</h4>
+                <p> &emsp;The title attribute is used to provide additional information about an element. It is often
+                    used to
+                    provide tooltips or other supplemental content.</p>
+                <h4>HREF</h4>
+                <p> &emsp;The href attribute is used in the <a> element to specify the link's destination. It is the
+                        most common
+                        way to create hyperlinks on the web.</p>
+                <h4>Target</h4>
+                <p> &emsp;The target attribute is used in the <a> element to specify where to open the linked document.
+                        It can have
+                        values such as \_self (open in the same frame), \_blank (open in a new tab), and \_parent (open
+                        in
+                        the parent frame).</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col max">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <img src="/assets/icons/logo.svg" alt="logo" class="w-10">
+                <span class="ml-3 text-2xl text-primary">Weblox</span>
+            </a>
+            <p class="text-base text-primary sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
+                2024 Weblox —
+                <a href="https://github.com/prasadp27" class="text-primary ml-1" rel="noopener noreferrer"
+                    target="_blank">Prasad Panchal</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <a class="text-primary" href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-primary" href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-primary" href="https://www.linkedin.com" rel="noopener noreferrer" target="_blank">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none"
+                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                        </path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                </a>
+            </span>
         </div>
-    </section>
-</main>
-
-<footer>
-    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col max">
-        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <img src="/assets/icons/logo.svg" alt="logo" class="w-10">
-            <span class="ml-3 text-2xl text-primary">Weblox</span>
-        </a>
-        <p class="text-base text-primary sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
-            2024 Weblox —
-            <a href="https://twitter.com/knyttneve" class="text-primary ml-1" rel="noopener noreferrer"
-                target="_blank">Prasad Panchal</a>
-        </p>
-        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <a class="text-primary">
-                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
-                    viewBox="0 0 24 24">
-                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
-            </a>
-            <a class="ml-3 text-primary">
-                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
-                    viewBox="0 0 24 24">
-                    <path
-                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
-                    </path>
-                </svg>
-            </a>
-            <a class="ml-3 text-primary">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-5 h-5" viewBox="0 0 24 24">
-                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-                </svg>
-            </a>
-            <a class="ml-3 text-primary">
-                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                    stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
-                    <path stroke="none"
-                        d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
-                    </path>
-                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
-                </svg>
-            </a>
-        </span>
-    </div>
-</footer>
+    </footer>
