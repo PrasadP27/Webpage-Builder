@@ -35,19 +35,27 @@ requestAnimationFrame(raf)
 let t1Hero = gsap.timeline()
 
 t1Hero.from('#home h1', {
-  yPercent: 100,
+  yPercent: 150,
   opacity: 0,
   ease: "back.out(1.7)",
   duration: 1.2
-}),
+})
 
-  t1Hero.from('#home p, #home a', {
-    yPercent: 100,
-    opacity: 0,
-    ease: "back.out(1.7)",
-    duration: 1.2,
-    delay: '-1'
-  })
+t1Hero.from('#home p', {
+  yPercent: 150,
+  opacity: 0,
+  ease: "back.out(1.7)",
+  duration: 1.2,
+  delay: '-1'
+})
+
+t1Hero.from('#home a', {
+  yPercent: 150,
+  opacity: 0,
+  ease: "back.out(1.7)",
+  duration: 1.2,
+  delay: '-1'
+})
 
 //home video
 let t1video = gsap.timeline({
@@ -139,7 +147,7 @@ let t1howToUse = gsap.timeline({
   }
 })
 
-t1howToUse.from('#howToUse .content',{
+t1howToUse.from('#howToUse .content', {
   yPercent: -50,
   opacity: 0
 })

@@ -56,7 +56,7 @@ const guideHeadTags = [`
 
 const guideBodyTags = [`
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
-    <script src="/guide/guide.js"></script>
+    <script src="/guide/guide.js" defer></script>
 `]
 
 router.get("/guide", (req, res) => {
