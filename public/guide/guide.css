@@ -33,18 +33,15 @@ header .try:hover {
 
 section {
     padding: 30px 80px;
-    min-width: 1500px;
+    min-width: 1200px;
 }
 
 main {
     background: linear-gradient(to bottom, #000, #0088ff, #45a8ff 60%, #d5efff);
 }
 
-;
-
-
 .imp {
-    background-color: rgb(255, 190, 190);
+    background-color: #ff77774f;
     border: 2px solid red;
 }
 
@@ -54,7 +51,7 @@ main {
 }
 
 .imp p {
-    color: rgb(255, 65, 65);
+    color: rgb(255, 0, 0);
     margin-top: 5px;
     margin-bottom: 20px;
 }
@@ -78,5 +75,5 @@ p:not(footer p) {
 }
 
 footer {
-    background-color: #555555;
+    background-color: #212121;
 }

@@ -121,6 +121,24 @@ t1about.from('#about-info .content p', {
   ease: "none",
 })
 
+
+//info
+let t1info = gsap.timeline({
+  scrollTrigger: {
+    trigger: '#info',
+    start: '25% 70%',
+    end: '25% 70%',
+    // markers: true,
+    scrub: false,
+  }
+})
+
+t1info.from('#info .content', {
+  yPercent: 40,
+  opacity: 0,
+  ease: "none"
+})
+
 //features
 let t1features = gsap.timeline({
   scrollTrigger: {
