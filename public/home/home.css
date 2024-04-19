@@ -32,6 +32,7 @@
 
 header {
     z-index: 100;
+    min-width: 1200px;
 }
 
 header img {
@@ -203,4 +204,5 @@ header .try:hover {
 
 footer {
     background-color: #212121;
+    min-width: 1200px;
 }
