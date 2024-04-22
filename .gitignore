@@ -2,3 +2,4 @@
 node_modules
 
 /firstfiles
+/public/assets/builder/builder.js
