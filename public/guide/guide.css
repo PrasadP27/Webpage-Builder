@@ -34,11 +34,12 @@ header .try:hover {
 
 section {
     padding: 30px 80px;
-    min-width: 1200px;
 }
 
 main {
+    width: 100%;
     background: linear-gradient(to bottom, #000, #0088ff, #45a8ff 60%, #d5efff);
+    min-width: 1200px;
 }
 
 .imp {

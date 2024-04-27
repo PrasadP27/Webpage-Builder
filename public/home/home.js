@@ -64,14 +64,14 @@ let t1video = gsap.timeline({
     start: '40% 50%',
     end: '60% 50%',
     // markers: true,
-    scrub: true,
+    scrub: 2,
   }
 })
 
 t1video.to('.home-video', {
-  scale: 1.05,
+  scale: 1.12,
   y: '-50px',
-  ease: 'none'
+  ease: 'none',
 })
 
 //home text
@@ -168,4 +168,21 @@ let t1howToUse = gsap.timeline({
 t1howToUse.from('#howToUse .content', {
   yPercent: -50,
   opacity: 0
+})
+
+//quote
+let t1quote = gsap.timeline({
+  scrollTrigger: {
+    trigger: '#quote',
+    start: '25% 70%',
+    end: '25% 70%',
+    // markers: true,
+    scrub: false,
+  }
+})
+
+t1quote.from('#quote .text-center', {
+  yPercent: 40,
+  opacity: 0,
+  ease: "none"
 })

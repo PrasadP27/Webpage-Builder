@@ -2585,7 +2585,7 @@ const editor = grapesjs.init({
             label: "<img src='/assets/icons/export.svg' alt='export'>",
             command: "export",
             attributes: {
-              'title': 'Import Code',
+              'title': 'Export Code',
               'data-tooltip-pos': 'bottom',
             },
           },

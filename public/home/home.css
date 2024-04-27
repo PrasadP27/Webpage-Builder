@@ -61,6 +61,7 @@ header .try:hover {
 #home {
     padding: 160px 50px 50px;
     background: linear-gradient(to bottom, #000, #0088ff, #45a8ff 60%, #d5efff);
+    overflow: hidden;
 }
 
 .max {
