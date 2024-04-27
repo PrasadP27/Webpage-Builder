@@ -20,6 +20,69 @@
     border-radius: 20px;
 }
 
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(5px);
+    z-index: 500;
+    align-items: flex-end;
+    justify-content: flex-start;
+    display: none;
+    visibility: hidden;
+    transition: 0.6s all;
+}
+
+.popup .popup-container {
+    position: relative;
+    background-color: #f9f9f9e5;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid red;
+    border-left: 10px solid red;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    display: flex;
+    margin: 50px 20px;
+    padding: 10px;
+    transition: 1s all;
+}
+
+.popup .popup-container img {
+    height: 25px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 5px;
+    background-color: #AAAAAA;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.popup .popup-container img:hover {
+    scale: 1.05;
+    border: 1px solid #000;
+}
+
+.popup .popup-container h1 {
+    color: red;
+}
+
+.popup .popup-container p{
+    color: #4a0202;
+}
+
+.popup .popup-container code {
+    background-color: #45a8ff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0 10px;
+    background: #cccccc;
+    color: #000;
+}
+
 #left-navbar {
     position: fixed;
     top: 0;
@@ -212,54 +275,61 @@
 #styles {
     margin-top: 20px;
 }
+
 #styles-container .gjs-one-bg,
 #styles .gjs-one-bg {
     background-color: #e3e3e343
 }
+
 #styles .gjs-sm-sector .gjs-sm-sector-title {
     background-color: #cccccc;
     font-weight: 600;
 }
+
 #styles-container .gjs-two-color,
 #styles-container .gjs-input-unit,
 #styles .gjs-two-color,
-#styles .gjs-input-unit{
+#styles .gjs-input-unit {
     color: #000;
     font-weight: 600;
     font-family: "Nunito Sans", sans-serif;
 }
-#styles-container .gjs-three-bg{
+
+#styles-container .gjs-three-bg {
     background-color: var(--third-color);
 }
 
-#styles .gjs-four-color{
+#styles .gjs-four-color {
     color: var(--third-color);
 }
 
 #styles .gjs-field input,
 #styles .gjs-field select,
-#styles .gjs-field textarea{
+#styles .gjs-field textarea {
     background-color: #d9d9d91f;
 }
 
-#trait-container .gjs-one-bg{
+#trait-container .gjs-one-bg {
     background-color: #cccccc;
 }
-#trait-container .gjs-two-color{
+
+#trait-container .gjs-two-color {
     color: #000;
     font-weight: 600;
 }
+
 #trait-container .gjs-field input,
 #trait-container .gjs-field select,
-#trait-container .gjs-field textarea{
+#trait-container .gjs-field textarea {
     background-color: #F9F9F9;
     border-radius: 3px;
 }
-#trait-container .gjs-traits-c{
+
+#trait-container .gjs-traits-c {
     padding: 10px 0px;
 }
 
-.gjs-mdl-container .gjs-one-bg{
+.gjs-mdl-container .gjs-one-bg {
     background-color: #5b5b5b;
 
 }

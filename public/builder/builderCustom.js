@@ -2,13 +2,13 @@
 const loader = document.querySelector('.loader')
 
 window.addEventListener('load', () => {
-  loader.style.opacity = '0',
-    document.body.style.cursor = 'wait'
+    loader.style.opacity = '0',
+        document.body.style.cursor = 'wait'
 
-  setTimeout(() => {
-    loader.style.display = 'none',
-      document.body.style.cursor = 'auto'
-  }, 200)
+    setTimeout(() => {
+        loader.style.display = 'none',
+            document.body.style.cursor = 'auto'
+    }, 200)
 })
 
 // for Element-navbar 
@@ -94,3 +94,14 @@ window.addEventListener('beforeunload', ()=> {
     event.preventDefault()
     event.returnValue = ""
 })
+
+const popupClose = document.querySelector('.popup .popup-close')
+
+popupClose.onclick = () => {
+    document.querySelector('.popup .popup-container').style.transform = 'translateX(-100%)';
+
+    setTimeout(() => {
+        document.querySelector('.popup').style.display = 'none';
+        document.querySelector('.popup').style.visibility = 'hidden';
+    }, 400)
+}
