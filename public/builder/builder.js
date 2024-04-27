@@ -2804,7 +2804,7 @@ editor.Commands.add("guide", {
 });
 
 editor.Commands.add("go-to-guide", {
-  run: (editor) => {
+  run: () => {
     window.open('/guide', '_blank');
   }
 });
