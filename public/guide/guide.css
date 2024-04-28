@@ -44,7 +44,8 @@ main {
 
 .imp {
     background-color: #ff77774f;
-    border: 2px solid red;
+    border: 1px solid red;
+    border-left: 10px solid red;
 }
 
 .imp h2 {
