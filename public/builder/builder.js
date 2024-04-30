@@ -574,7 +574,7 @@ const blocks = [
         <div class="flex flex-col sm:flex-row mt-10">
           <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
             <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-              <img alt="content" class="object-cover object-center h-full w-full rounded-full" src="/assets/images/avatar-2.webp">
+              <img alt="content" class="object-cover object-center h-full w-full rounded-full bg-gray-100" src="/assets/images/avatar-2.webp">
             </div>
             <div class="flex flex-col items-center text-center justify-center">
               <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Phoebe Caulfield</h2>
@@ -1762,8 +1762,8 @@ const blocks = [
       </div>
       <div class="flex flex-wrap -m-4">
         <div class="p-4 lg:w-1/4 md:w-1/2">
-          <div class="h-full flex flex-col items-center text-center">
-            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200">
+          <div class="h-full flex flex-col items-center text-center border-2 rounded-lg p-1">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4 bg-gray-100 bg-gray-100" src="/assets/images/avatar-1.webp">
             <div class="w-full">
               <h2 class="title-font font-medium text-lg text-gray-900">Alper Kamu</h2>
               <h3 class="text-gray-500 mb-3">UI Developer</h3>
@@ -1789,8 +1789,8 @@ const blocks = [
           </div>
         </div>
         <div class="p-4 lg:w-1/4 md:w-1/2">
-          <div class="h-full flex flex-col items-center text-center">
-            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/201x201">
+          <div class="h-full flex flex-col items-center text-center border-2 rounded-lg p-1">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4 bg-gray-100" src="/assets/images/avatar-2.webp">
             <div class="w-full">
               <h2 class="title-font font-medium text-lg text-gray-900">Holden Caulfield</h2>
               <h3 class="text-gray-500 mb-3">UI Developer</h3>
@@ -1816,8 +1816,8 @@ const blocks = [
           </div>
         </div>
         <div class="p-4 lg:w-1/4 md:w-1/2">
-          <div class="h-full flex flex-col items-center text-center">
-            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202">
+          <div class="h-full flex flex-col items-center text-center border-2 rounded-lg p-1">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4 bg-gray-100" src="/assets/images/avatar-3.webp">
             <div class="w-full">
               <h2 class="title-font font-medium text-lg text-gray-900">Atticus Finch</h2>
               <h3 class="text-gray-500 mb-3">UI Developer</h3>
@@ -1843,8 +1843,8 @@ const blocks = [
           </div>
         </div>
         <div class="p-4 lg:w-1/4 md:w-1/2">
-          <div class="h-full flex flex-col items-center text-center">
-            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203">
+          <div class="h-full flex flex-col items-center text-center border-2 rounded-lg p-1">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4 bg-gray-100" src="/assets/images/avatar-4.webp">
             <div class="w-full">
               <h2 class="title-font font-medium text-lg text-gray-900">Henry Letham</h2>
               <h3 class="text-gray-500 mb-3">UI Developer</h3>
@@ -1974,7 +1974,7 @@ const blocks = [
             </svg>
             <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
             <a class="inline-flex items-center">
-              <img alt="testimonial" src="https://dummyimage.com/106x106" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+              <img alt="testimonial" src="/assets/images/avatar-1.webp" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center bg-gray-400">
               <span class="flex-grow flex flex-col pl-4">
                 <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
                 <span class="text-gray-500 text-sm">UI DEVELOPER</span>
@@ -1989,7 +1989,7 @@ const blocks = [
             </svg>
             <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
             <a class="inline-flex items-center">
-              <img alt="testimonial" src="https://dummyimage.com/107x107" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+              <img alt="testimonial" src="/assets/images/avatar-2.webp" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center bg-gray-400">
               <span class="flex-grow flex flex-col pl-4">
                 <span class="title-font font-medium text-gray-900">Alper Kamu</span>
                 <span class="text-gray-500 text-sm">DESIGNER</span>
@@ -2032,7 +2032,7 @@ const blocks = [
       <div class="flex flex-wrap -m-4">
         <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
           <div class="h-full text-center">
-            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/302x302">
+            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/assets/images/avatar-1.webp">
             <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
             <span class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
             <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
@@ -2041,7 +2041,7 @@ const blocks = [
         </div>
         <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
           <div class="h-full text-center">
-            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/300x300">
+            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/assets/images/avatar-2.webp">
             <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
             <span class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
             <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">ALPER KAMU</h2>
@@ -2050,7 +2050,7 @@ const blocks = [
         </div>
         <div class="lg:w-1/3 lg:mb-0 p-4">
           <div class="h-full text-center">
-            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/305x305">
+            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/assets/images/avatar-3.webp">
             <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
             <span class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
             <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HENRY LETHAM</h2>
