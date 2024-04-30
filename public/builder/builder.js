@@ -397,7 +397,7 @@ const blocks = [
       <div class="flex flex-wrap -m-4">
         <div class="xl:w-1/4 md:w-1/2 p-4">
           <div class="bg-gray-100 p-6 rounded-lg">
-            <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="/assets/images/about-d.webp" alt="content">
             <h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">SUBTITLE</h3>
             <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Chichen Itza</h2>
             <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
@@ -405,7 +405,7 @@ const blocks = [
         </div>
         <div class="xl:w-1/4 md:w-1/2 p-4">
           <div class="bg-gray-100 p-6 rounded-lg">
-            <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="content">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="/assets/images/gallery-a.webp" alt="content">
             <h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">SUBTITLE</h3>
             <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Colosseum Roma</h2>
             <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
@@ -413,7 +413,7 @@ const blocks = [
         </div>
         <div class="xl:w-1/4 md:w-1/2 p-4">
           <div class="bg-gray-100 p-6 rounded-lg">
-            <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="content">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="/assets/images/gallery-b.webp" alt="content">
             <h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">SUBTITLE</h3>
             <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Great Pyramid of Giza</h2>
             <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
@@ -421,7 +421,7 @@ const blocks = [
         </div>
         <div class="xl:w-1/4 md:w-1/2 p-4">
           <div class="bg-gray-100 p-6 rounded-lg">
-            <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="/assets/images/gallery-c.webp" alt="content">
             <h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">SUBTITLE</h3>
             <h2 class="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
             <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
@@ -574,10 +574,7 @@ const blocks = [
         <div class="flex flex-col sm:flex-row mt-10">
           <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
             <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                <circle cx="12" cy="7" r="4"></circle>
-              </svg>
+              <img alt="content" class="object-cover object-center h-full w-full rounded-full" src="/assets/images/avatar-2.webp">
             </div>
             <div class="flex flex-col items-center text-center justify-center">
               <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Phoebe Caulfield</h2>
@@ -712,7 +709,7 @@ const blocks = [
     content: `<section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto flex flex-wrap">
       <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-        <img alt="feature" class="object-cover object-center h-full w-full" src="https://dummyimage.com/460x500">
+        <img alt="feature" class="object-cover object-center h-full w-full" src="/assets/images/features-b.webp">
       </div>
       <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
         <div class="flex flex-col mb-10 lg:items-start items-center">
@@ -1148,24 +1145,24 @@ const blocks = [
       <div class="flex flex-wrap md:-m-2 -m-1">
         <div class="flex flex-wrap w-1/2">
           <div class="md:p-2 p-1 w-1/2">
-            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/500x300">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="/assets/images/gallery-a.webp">
           </div>
           <div class="md:p-2 p-1 w-1/2">
-            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/501x301">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="/assets/images/gallery-b.webp">
           </div>
           <div class="md:p-2 p-1 w-full">
-            <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://dummyimage.com/600x360">
+            <img alt="gallery" class="w-full h-full object-cover object-center block" src="/assets/images/gallery-c.webp">
           </div>
         </div>
         <div class="flex flex-wrap w-1/2">
           <div class="md:p-2 p-1 w-full">
-            <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://dummyimage.com/601x361">
+            <img alt="gallery" class="w-full h-full object-cover object-center block" src="/assets/images/gallery-a.webp">
           </div>
           <div class="md:p-2 p-1 w-1/2">
-            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/502x302">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="/assets/images/gallery-b.webp">
           </div>
           <div class="md:p-2 p-1 w-1/2">
-            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/503x303">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="/assets/images/gallery-c.webp">
           </div>
         </div>
       </div>
@@ -1192,7 +1189,7 @@ const blocks = [
     <div class="container px-5 py-24 mx-auto flex flex-wrap">
       <div class="lg:w-2/3 mx-auto">
         <div class="flex flex-wrap w-full bg-gray-100 py-32 px-10 relative mb-4">
-          <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="https://dummyimage.com/820x340">
+          <img alt="gallery" class="w-full object-cover h-full object-center block opacity-30 absolute inset-0" src="/assets/images/gallery-a.webp">
           <div class="text-center relative z-10 w-full">
             <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
             <p class="leading-relaxed">Skateboard +1 mustache fixie paleo lumbersexual.</p>
@@ -1206,7 +1203,7 @@ const blocks = [
         <div class="flex flex-wrap -mx-2">
           <div class="px-2 w-1/2">
             <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
-              <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="https://dummyimage.com/542x460">
+              <img alt="gallery" class="w-full object-cover h-full object-center block opacity-30 absolute inset-0" src="/assets/images/gallery-b.webp">
               <div class="text-center relative z-10 w-full">
                 <h2 class="text-xl text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
                 <p class="leading-relaxed">Skateboard +1 mustache fixie paleo lumbersexual.</p>
@@ -1220,7 +1217,7 @@ const blocks = [
           </div>
           <div class="px-2 w-1/2">
             <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
-              <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="https://dummyimage.com/542x420">
+              <img alt="gallery" class="w-full object-cover h-full object-center block opacity-30 absolute inset-0" src="/assets/images/gallery-c.webp">
               <div class="text-center relative z-10 w-full">
                 <h2 class="text-xl text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
                 <p class="leading-relaxed">Skateboard +1 mustache fixie paleo lumbersexual.</p>
