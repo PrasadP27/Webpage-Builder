@@ -141,6 +141,7 @@
 
 #element #element-content {
     overflow-y: scroll;
+    height: calc(100% - 92px);
 }
 
 #element #element-content::-webkit-scrollbar {

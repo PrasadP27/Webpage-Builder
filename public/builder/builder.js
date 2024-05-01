@@ -2479,7 +2479,7 @@ const blocks = [
 
 const editor = grapesjs.init({
   container: '#editor',
-  height: '100%',
+  height: 'calc(100% - 56px)',
   width: '100%',
   fromElement: true,
   storageManager: false,
