@@ -2257,8 +2257,8 @@ const blocks = [
     </div>
     <div class="bg-gray-100">
       <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-        <p class="text-gray-500 text-sm text-center sm:text-left">© 2020 Weblox —
-          <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@knyttneve</a>
+        <p class="text-gray-500 text-sm text-center sm:text-left">© 2024 Weblox —
+          <a href="https://weblox.onrender.com/" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@weblox</a>
         </p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
           <a class="text-gray-500">
@@ -2307,8 +2307,8 @@ const blocks = [
         </svg>
         <span class="ml-3 text-xl">Weblox</span>
       </a>
-      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2020 Weblox —
-        <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@knyttneve</a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 Weblox —
+        <a href="https://weblox.onrender.com/" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@weblox</a>
       </p>
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
         <a class="text-gray-500">
@@ -2442,8 +2442,8 @@ const blocks = [
           </svg>
           <span class="ml-3 text-xl">Weblox</span>
         </a>
-        <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2020 Weblox —
-          <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@knyttneve</a>
+        <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2024 Weblox —
+          <a href="https://weblox.onrender.com/" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@weblox</a>
         </p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a class="text-gray-500">
