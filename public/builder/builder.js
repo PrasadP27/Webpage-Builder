@@ -2734,6 +2734,7 @@ const editor = grapesjs.init({
         'border',
         'box-shadow',
         'background',
+        { id: 'background-bg', property: 'background-color', type: 'bg' }
       ],
     }, {
       name: 'Extra',
