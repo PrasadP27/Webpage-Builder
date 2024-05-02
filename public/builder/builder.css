@@ -40,9 +40,9 @@
     background-color: #f9f9f9e5;
     overflow: hidden;
     border-radius: 20px;
-    border: 1px solid red;
-    border-left: 10px solid red;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border: 1px solid var(--third-color);
+    border-left: 10px solid var(--third-color);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     display: flex;
     margin: 50px 20px;
     padding: 10px;
@@ -67,11 +67,11 @@
 }
 
 .popup .popup-container h1 {
-    color: red;
+    color: var(--third-color);
 }
 
 .popup .popup-container p{
-    color: #4a0202;
+    color: #000;
 }
 
 .popup .popup-container code {

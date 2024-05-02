@@ -2756,8 +2756,24 @@ const editor = grapesjs.init({
     'grapesjs-plugin-export',
     'grapesjs-tooltip'
   ],
+
   pluginsOpts: {
-    'grapesjs-plugin-export': {},
+    'grapesjs-plugin-export': {
+      root: {
+        'index.html': (editor) => {
+          const html = editor.getHtml();
+          const head = `
+          <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="./css/style.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+          </head>`;
+          return `<html>${head}<body>${html}</body></html>`;
+        },
+        'css/style.css': editor => editor.getCss(),
+      },
+      filename: editor => `weblox_webpageBuilder-${new Date().toISOString().split('T')[0].split('-').reverse().join('_')}-${new Date().toTimeString().split(' ')[0].split(':').slice(0, 2).join(':')}.zip`,
+    },
     'grapesjs-tooltip': {}
   }
 });
