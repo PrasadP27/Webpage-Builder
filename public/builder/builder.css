@@ -135,6 +135,11 @@
     transition: 0.6s all;
 }
 
+#element-navbar ul li button img {
+    transform: rotate(0deg) translateX(0);
+    transition: transform 1s ease;
+}
+
 #element-navbar ul li button.active img {
     scale: 1.2;
     transform: rotate(90deg) translateX(1px);
