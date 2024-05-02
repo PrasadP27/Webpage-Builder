@@ -132,11 +132,13 @@
     background-color: var(--primary-color);
     border-radius: 15px 0 0 15px;
     transform: translateX(5px);
-    transition: 0.6s;
+    transition: 0.6s all;
 }
 
 #element-navbar ul li button.active img {
     scale: 1.2;
+    transform: rotate(90deg) translateX(1px);
+    transition: transform 1s ease;
 }
 
 #element #element-content {
