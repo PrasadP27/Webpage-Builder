@@ -217,6 +217,11 @@
     scale: 0.95;
     background-color: var(--second-color);
 }
+#top-navbar .panel_devices .gjs-pn-btn.active{
+    scale: 0.95;
+    background-color: var(--second-color);
+    border: 2px solid var(--primary-color);
+}
 
 #top-navbar .gjs-one-bg {
     background-color: transparent;

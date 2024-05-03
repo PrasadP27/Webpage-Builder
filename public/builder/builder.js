@@ -2506,7 +2506,7 @@ const editor = grapesjs.init({
               'title': 'Desktop View',
               'data-tooltip-pos': 'bottom',
             },
-            // className: 'active'
+            className: 'active'
           },
           {
             id: "device-laptop",
@@ -2822,4 +2822,17 @@ editor.Commands.add("go-to-guide", {
   run: () => {
     window.open('/guide', '_blank');
   }
+});
+
+
+// for active device with icon
+
+const buttons = document.querySelectorAll('.panel_devices .gjs-pn-btn');
+
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    buttons.forEach(btn => btn.classList.remove('active'));
+
+    button.classList.add('active');
+  });
 });
