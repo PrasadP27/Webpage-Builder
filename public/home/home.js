@@ -158,8 +158,8 @@ t1features.from('.feature-content', {
 let t1howToUse = gsap.timeline({
   scrollTrigger: {
     trigger: '#howToUse',
-    start: '25% 70%',
-    end: '25% 70%',
+    start: '25% 90%',
+    end: '25% 90%',
     // markers: true,
     scrub: false,
   }
@@ -174,8 +174,8 @@ t1howToUse.from('#howToUse .content', {
 let t1quote = gsap.timeline({
   scrollTrigger: {
     trigger: '#quote',
-    start: '25% 70%',
-    end: '25% 70%',
+    start: '25% 95%',
+    end: '25% 95%',
     // markers: true,
     scrub: false,
   }
