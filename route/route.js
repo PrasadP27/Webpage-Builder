@@ -33,6 +33,7 @@ const builerHeadTags = [`
 
     <script src="//unpkg.com/grapesjs-plugin-export"></script>
     <script src="//unpkg.com/grapesjs-tooltip"></script>
+    <script src="//unpkg.com/grapesjs-touch"></script>
 `]
 
 const builderBodyTags = [`

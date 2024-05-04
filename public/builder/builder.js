@@ -2754,7 +2754,8 @@ const editor = grapesjs.init({
 
   plugins: [
     'grapesjs-plugin-export',
-    'grapesjs-tooltip'
+    'grapesjs-tooltip',
+    'grapesjs-touch'
   ],
 
   pluginsOpts: {
