@@ -2504,7 +2504,6 @@ const editor = grapesjs.init({
             togglable: false,
             attributes: {
               'title': 'Desktop View',
-              'data-tooltip-pos': 'bottom',
             },
             className: 'active'
           },
@@ -2515,7 +2514,6 @@ const editor = grapesjs.init({
             togglable: false,
             attributes: {
               'title': 'Laptop View',
-              'data-tooltip-pos': 'bottom',
             },
           },
           {
@@ -2525,7 +2523,6 @@ const editor = grapesjs.init({
             togglable: false,
             attributes: {
               'title': 'Tablet view',
-              'data-tooltip-pos': 'bottom',
             },
           },
           {
@@ -2535,7 +2532,6 @@ const editor = grapesjs.init({
             togglable: false,
             attributes: {
               'title': 'Mobile view',
-              'data-tooltip-pos': 'bottom',
             },
           }
         ]
@@ -2552,7 +2548,6 @@ const editor = grapesjs.init({
             command: "sw-visibility",
             attributes: {
               'title': 'View Components',
-              'data-tooltip-pos': 'bottom',
             },
           },
           {
@@ -2563,7 +2558,6 @@ const editor = grapesjs.init({
             context: 'export-template',
             attributes: {
               'title': 'Code',
-              'data-tooltip-pos': 'bottom'
             },
           },
           {
@@ -2574,7 +2568,6 @@ const editor = grapesjs.init({
             context: "panel-basic-actions",
             attributes: {
               'title': 'Undo',
-              'data-tooltip-pos': 'bottom',
             },
           },
           {
@@ -2585,7 +2578,6 @@ const editor = grapesjs.init({
             context: "panel-basic-actions",
             attributes: {
               'title': 'Redo',
-              'data-tooltip-pos': 'bottom',
             },
           },
           {
@@ -2595,7 +2587,6 @@ const editor = grapesjs.init({
             command: "export",
             attributes: {
               'title': 'Export Code',
-              'data-tooltip-pos': 'bottom',
             },
           },
           {
@@ -2605,7 +2596,6 @@ const editor = grapesjs.init({
             command: "guide",
             attributes: {
               'title': 'Beginner Guide',
-              'data-tooltip-pos': 'bottom',
             },
           }
         ]
@@ -2754,7 +2744,6 @@ const editor = grapesjs.init({
 
   plugins: [
     'grapesjs-plugin-export',
-    'grapesjs-tooltip',
     'grapesjs-touch'
   ],
 
@@ -2775,7 +2764,6 @@ const editor = grapesjs.init({
       },
       filename: editor => `weblox_webpageBuilder-${new Date().toISOString().split('T')[0].split('-').reverse().join('_')}-${new Date().toTimeString().split(' ')[0].split(':').slice(0, 2).join(':')}.zip`,
     },
-    'grapesjs-tooltip': {}
   }
 });
 
@@ -2827,7 +2815,6 @@ editor.Commands.add("go-to-guide", {
 
 
 // for active device with icon
-
 const buttons = document.querySelectorAll('.panel_devices .gjs-pn-btn');
 
 buttons.forEach(button => {
