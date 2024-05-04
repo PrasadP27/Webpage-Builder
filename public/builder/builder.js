@@ -2661,9 +2661,9 @@ const editor = grapesjs.init({
           type: 'radio',
           default: 'none',
           options: [
-            { value: 'none', className: 'fa fa-times' },
-            { value: 'left', className: 'fa fa-align-left' },
-            { value: 'right', className: 'fa fa-align-right' }
+            { value: 'none', className: 'fa fa-times', title: 'none' },
+            { value: 'left', className: 'fa fa-align-left', title: 'Float left'},
+            { value: 'right', className: 'fa fa-align-right', title: 'Float right' }
           ],
         },
         'display',
@@ -2707,10 +2707,10 @@ const editor = grapesjs.init({
         {
           extend: 'text-align',
           options: [
-            { id: 'left', label: 'Left', className: 'fa fa-align-left' },
-            { id: 'center', label: 'Center', className: 'fa fa-align-center' },
-            { id: 'right', label: 'Right', className: 'fa fa-align-right' },
-            { id: 'justify', label: 'Justify', className: 'fa fa-align-justify' }
+            { id: 'left', label: 'Left', className: 'fa fa-align-left', title: 'Left' },
+            { id: 'center', label: 'Center', className: 'fa fa-align-center', title: 'Center' },
+            { id: 'right', label: 'Right', className: 'fa fa-align-right', title: 'Right' },
+            { id: 'justify', label: 'Justify', className: 'fa fa-align-justify', title: 'Justify' }
           ],
         },
         {
@@ -2718,9 +2718,9 @@ const editor = grapesjs.init({
           type: 'radio',
           default: 'none',
           options: [
-            { id: 'none', label: 'None', className: 'fa fa-times' },
-            { id: 'underline', label: 'underline', className: 'fa fa-underline' },
-            { id: 'line-through', label: 'Line-through', className: 'fa fa-strikethrough' }
+            { id: 'none', label: 'None', className: 'fa fa-times', title: 'none' },
+            { id: 'underline', label: 'underline', className: 'fa fa-underline', title: 'Underline' },
+            { id: 'line-through', label: 'Line-through', className: 'fa fa-strikethrough', title: 'Line-through' }
           ],
         },
         'text-shadow'
