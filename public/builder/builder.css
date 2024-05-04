@@ -293,6 +293,10 @@
     margin-top: 20px;
 }
 
+#styles #gjs-sm-add{
+    color: #222222;
+}
+
 #styles-container .gjs-one-bg,
 #styles .gjs-one-bg {
     background-color: #e3e3e343
@@ -348,5 +352,4 @@
 
 .gjs-mdl-container .gjs-one-bg {
     background-color: #5b5b5b;
-
 }
