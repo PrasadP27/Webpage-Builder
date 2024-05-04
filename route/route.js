@@ -31,13 +31,17 @@ const builerHeadTags = [`
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/7.2.0/introjs.min.css" />
+
     <script src="//unpkg.com/grapesjs-plugin-export"></script>
     <script src="//unpkg.com/grapesjs-touch"></script>
 `]
 
 const builderBodyTags = [`
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/7.2.0/intro.min.js"></script>
     <script src="/builder/builderCustom.js"></script>
     <script src="/builder/builder.js"></script>
+    <script src="/builder/builderGuide.js"></script>
 `]
 
 router.get("/builder", (req, res) => {

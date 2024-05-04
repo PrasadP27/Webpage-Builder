@@ -70,7 +70,7 @@
     color: var(--third-color);
 }
 
-.popup .popup-container p{
+.popup .popup-container p {
     color: #000;
 }
 
@@ -217,7 +217,8 @@
     scale: 0.95;
     background-color: var(--second-color);
 }
-#top-navbar .panel_devices .gjs-pn-btn.active{
+
+#top-navbar .panel_devices .gjs-pn-btn.active {
     scale: 0.95;
     background-color: var(--second-color);
     border: 2px solid var(--primary-color);
@@ -293,7 +294,7 @@
     margin-top: 20px;
 }
 
-#styles #gjs-sm-add{
+#styles #gjs-sm-add {
     color: #222222;
 }
 
@@ -352,4 +353,25 @@
 
 .gjs-mdl-container .gjs-one-bg {
     background-color: #5b5b5b;
+}
+
+
+/* for intro custom design */
+
+.introCustom {
+    border-radius: 15px !important;
+    background-color: var(--primary-color) !important;
+}
+
+.introCustom .introjs-tooltip-title{
+    font-size: 22px !important;
+    color: var(--third-color);
+}
+
+.introCustom .introjs-tooltiptext{
+    padding: 15px !important;
+}
+
+.introCustom .introjs-button{
+    border-radius: 8px !important;
 }
