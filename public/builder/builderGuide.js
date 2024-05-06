@@ -42,4 +42,3 @@ introJs().setOptions({
     tooltipClass: 'introCustom'
 }).start()
 
-introJs().addHints();
