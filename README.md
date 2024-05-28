@@ -11,6 +11,8 @@ a unique and personalized website.
 
 ## Screenshots
 
+![image](https://github.com/PrasadP27/Webpage-Builder/assets/157368807/544f19df-64f1-4ac5-9d8a-6c3513da1b5c)
+
 
 
 ## Tech Stack
