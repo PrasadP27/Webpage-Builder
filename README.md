@@ -26,9 +26,11 @@ a unique and personalized website.
 
 - Easily customize page layout as per the user need.
 - User-friendly design with drag-and-drop technology for easy element addition or adjustment.
--  No-code solution for time-saving and error reduction, with control over fonts, colors, images, text colors, and layouts.
+- No-code solution for time-saving and error reduction, with control over fonts, colors, images, text colors, and layouts.
+- Webpage created with the latest TailwindCSS technology.
 - Flexibility in moving things around and keeping content evergreen, with cost-free changes as needed.
 - Check the website compability for desktop, laptop, tablet and phone.
+- Zip file download for the webpage created.
 
 
 ## Prerequist
