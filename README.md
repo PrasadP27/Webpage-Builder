@@ -17,11 +17,11 @@ a unique and personalized website.
 
 ## Tech Stack
 
-**Front-end:** ejs, CSS, TailwindCSS, JavaScript
+**Front-end:** ```ejs```,```CSS```, ```TailwindCSS```, ```JavaScript```
 
-**Server:** Node, Express
+**Server:** ```Node```, ```Express```
 
-**Framework & Libraries:** GrapesJS, IntroJS, GsapJS
+**Framework & Libraries:** ```GrapesJS```, ```IntroJS```, ```GsapJS```
 
 
 ## Features
@@ -59,3 +59,11 @@ This is not really necessary but if done then its good.
 npm run dev
 ```
 This will start the server and run on localhost:5050 port.
+
+## Contributing
+
+We welcome contributions from the community! If you'd like to contribute to Weblox, please fork the repository and submit a pull request.
+
+## Support
+
+If you encounter any issues or have any questions about using Weblox, please open an issue on the repository.
